@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-03-01T20:14:46.878518",
+    "startedAt": "2024-03-01T20:14:44.389343",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Word2Vec Pytorch Student.ipynb",
+    "codePathLocal": "Word2Vec Pytorch Student.ipynb",
+    "root": "G:/\u6211\u7684\u4e91\u7aef\u786c\u76d8/SI_630/Homeworks",
+    "git": {
+        "remote": "https://github.com/yanzhuo2001/SI630-CourseFiles.git",
+        "commit": "fbcf0268b78b8e76095f07ee990bb3a784ba95e8"
+    },
+    "email": null,
+    "host": "LAPTOP-DIRME7QS",
+    "username": "16979",
+    "executable": "D:\\Pycharm\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2419.0,
+        "min": 0.0,
+        "max": 2419.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2419.0,
+            "min": 0.0,
+            "max": 2419.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 198.80175399780273,
+            "used": 176.05597305297852
+        }
+    },
+    "gpu": "NVIDIA GeForce MX450",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX450",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 15.804008483886719
+    }
+}
