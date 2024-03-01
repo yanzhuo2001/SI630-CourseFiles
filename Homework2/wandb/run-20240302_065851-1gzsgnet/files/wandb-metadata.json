@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-03-01T22:58:53.915186",
+    "startedAt": "2024-03-01T22:58:51.426792",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Attention Classifier Pytorch Student.ipynb",
+    "codePathLocal": "Attention Classifier Pytorch Student.ipynb",
+    "root": "G:/\u6211\u7684\u4e91\u7aef\u786c\u76d8/SI_630/Homeworks",
+    "git": {
+        "remote": "https://github.com/yanzhuo2001/SI630-CourseFiles.git",
+        "commit": "1b679378f764c19f8e3c4dc6042f612f53d1acde"
+    },
+    "email": null,
+    "host": "LAPTOP-DIRME7QS",
+    "username": "16979",
+    "executable": "D:\\Pycharm\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2419.0,
+        "min": 0.0,
+        "max": 2419.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2419.0,
+            "min": 0.0,
+            "max": 2419.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 198.80175399780273,
+            "used": 174.6505889892578
+        }
+    },
+    "gpu": "NVIDIA GeForce MX450",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX450",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 15.804008483886719
+    }
+}

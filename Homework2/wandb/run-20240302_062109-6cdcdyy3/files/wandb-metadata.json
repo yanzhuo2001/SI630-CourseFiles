@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-03-01T22:21:13.388755",
+    "startedAt": "2024-03-01T22:21:09.021170",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "G:\\\u6211\u7684\u4e91\u7aef\u786c\u76d8\\SI_630\\Homeworks\\Homework2\\test.py",
+    "codePathLocal": "test.py",
+    "codePath": "Homework2\\test.py",
+    "git": {
+        "remote": "https://github.com/yanzhuo2001/SI630-CourseFiles.git",
+        "commit": "1b679378f764c19f8e3c4dc6042f612f53d1acde"
+    },
+    "email": null,
+    "root": "G:/\u6211\u7684\u4e91\u7aef\u786c\u76d8/SI_630/Homeworks",
+    "host": "LAPTOP-DIRME7QS",
+    "username": "16979",
+    "executable": "D:\\Pycharm\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2419.0,
+        "min": 0.0,
+        "max": 2419.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2419.0,
+            "min": 0.0,
+            "max": 2419.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 198.80175399780273,
+            "used": 176.0662384033203
+        }
+    },
+    "gpu": "NVIDIA GeForce MX450",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX450",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 15.804008483886719
+    }
+}

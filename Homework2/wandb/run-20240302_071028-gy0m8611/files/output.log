@@ -1,0 +1,29 @@
+Stopping early at step 0 due to no improvement in 1000 steps.
+Text: Great analysis of what is happening to young adult...
+Predicted Label: 1.0
+C:\Users\16979\AppData\Local\Temp\ipykernel_3892\448138506.py:11: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ..\torch\csrc\utils\tensor_new.cpp:264.)
+  word_ids_tensor = torch.tensor([word_ids], dtype=torch.long)
+Text: It was a good read. A little slow for me at times ...
+Predicted Label: 1.0
+Text: I liked the Ogre Detective series but this is like...
+Predicted Label: 1.0
+Text: Seriously, what is going on here? Treating other l...
+Predicted Label: 1.0
+Predicted Label: 1.0
+<xml><var name="_dummy_ipython_val"  />
+<var name="_dummy_special_var"  />
+<var name="RegexpTokenizer" type="ABCMeta" qualifier="abc" value="%3Cclass %27nltk.tokenize.regexp.RegexpTokenizer%27&gt;" isContainer="True" />
+<var name="attention_weights" type="Tensor" qualifier="torch" value="tensor%28%5B%5B%5B0.0291%2C 0.0614%2C 0.0505%2C 0.0648%5D%2C%0A         %5B0.0551%2C 0.0458%2C 0.0538%2C 0.0423%5D%2C%0A         %5B0.0375%2C 0.0547%2C 0.0517%2C 0.0548%5D%2C%0A         %5B0.1474%2C 0.0292%2C 0.0593%2C 0.0220%5D%2C%0A         %5B0.0291%2C 0.0614%2C 0.0505%2C 0.0648%5D%2C%0A         %5B0.0660%2C 0.0422%2C 0.0547%2C 0.0375%5D%2C%0A         %5B0.0291%2C 0.0614%2C 0.0505%2C 0.0648%5D%2C%0A         %5B0.0332%2C 0.0578%2C 0.0511%2C 0.0594%5D%2C%0A         %5B0.0291%2C 0.0614%2C 0.0505%2C 0.0648%5D%2C%0A         %5B0.0291%2C 0.0614%2C 0.0505%2C 0.0648%5D%2C%0A         %5B0.1296%2C 0.0310%2C 0.0586%2C 0.0239%5D%2C%0A         %5B0.0291%2C 0.0614%2C 0.0505%2C 0.0648%5D%2C%0A         %5B0.0291%2C 0.0614%2C 0.0505%2C 0.0648%5D%2C%0A         %5B0.0800%2C 0.0386%2C 0.0558%2C 0.0330%5D%2C%0A         %5B0.0291%2C 0.0614%2C 0.0505%2C 0.0648%5D%2C%0A         %5B0.0379%2C 0.0544%2C 0.0518%2C 0.0544%5D%2C%0A         %5B0.0291%2C 0.0614%2C 0.0505%2C 0.0648%5D%2C%0A         %5B0.1226%2C 0.0318%2C 0.0582%2C 0.0248%5D%2C%0A         %5B0.0291%2C 0.0614%2C 0.0505%2C 0.0648%5D%5D%5D%2C grad_fn=%3CSoftmaxBackward0&gt;%29" isContainer="True" shape="(1, 19, 4)" />
+<var name="attn" type="ndarray" qualifier="numpy" value="%5B%5B0.04627702 0.03349175 0.04021423 0.04329573%5D%2C %5B0.04627702 0.03349175 0.04021423 0.04329573%5D%2C %5B0.04544272 0.04292292 0.04492103 0.0452955 %5D%2C %5B0.04510649 0.0478667  0.04714471 0.04626168%5D%2C %5B0.04627702 0.03349175 0.04021423 0.04329573%5D%2C %5B0.04620932 0.03469595 0.04085072 0.04349375%5D%2C %5B0.04627702 0.03349175 0.04021423 0.04329573%5D%2C %5B0.04627702 0.03349175 0.04021423 0.04329573%5D%2C %5B0.04468489 0.05436091 0.04990405 0.04738675%5D%2C %5B0.0438005  0.07138587 0.05633877 0.04989234%5D%2C %5B0.04627702 0.03349175 0.04021423 0.04329573%5D%2C %5B0.04608255 0.03592346 0.04148985 0.04377773%5D%2C %5B0.04627702 0.03349175 0.04021423 0.04329573%5D%2C %5B0.04560952 0.04105862 0.04404241 0.04492664%5D%2C %5B0.04495003 0.05001622 0.04808209 0.04664355%5D%2C %5B0.04627702 0.03349175 0.04021423 0.04329573%5D%2C %5B0.04388322 0.069783   0.05577816 0.04969146%5D%2C %5B0.04331826 0.08309931 0.06029182 0.05136073%5D%2C %5B0.0447028  0.05391279 0.04972148 0.04731924%5D%2C %5B0.04627702 0.03349175 0.04021423 0.04329573%5D%2C %5B0.04627702 0.03349175 0.04021423 0.04329573%5D%2C %5B0.04343959 ..." isContainer="True" shape="(22, 4)" />
+<var name="batch_size" type="int" qualifier="builtins" value="1" />
+<var name="best_f1" type="float64" qualifier="numpy" value="0.6651983848900457" shape="()" />
+<var name="dev_data_path" type="str" qualifier="builtins" value="sentiment.dev.csv" />
+<var name="dev_dataset" type="TextDataset" qualifier="__main__" value="%3C__main__.TextDataset object at 0x00000173EA51F2D0&gt;" isContainer="True" shape="20000" />
+<var name="dev_f1" type="float64" qualifier="numpy" value="0.6651983848900457" shape="()" />
+<var name="dev_list" type="list" qualifier="builtins" value="%5B%28%5B   0    0    0    0 7228   40   45    0  167    0  247    0    0    0%2C  524    0 6696 1663 1752  899  123    0    0    0   66   67 3897    0%2C    0    0    0 1550  874    0 6183%5D%2C 0%29%2C %28%5B    0   213     0     0    45     0     0     0   207     0 15088  1950%2C     0   504     0     0  1151     0  9560  1338     0 17477     0   836%2C 11265  2097   620   309     0    44     0     0 15088   670  1950     0%2C     0  3354    38     0  6183%5D%2C 0%29%2C %28%5B   0    0    0 1670    0    0   10    0    0    0 4788    0    0   18%2C    0    0    0    0    0 4314    0   22    0 1568    0    0 1461    0%2C    0    0    0   54 1755    0   10  230    0  923    0    0    0  118%2C    0  566 2122    0    0 1454    0    0 3024    0 3213    0    0   76%2C    0    0 4791%5D%2C 1%29%2C %28%5B   0    0    0    0 1156    0  634 3618  748    0 3348 4659    0    0%2C    0  770    0    0    0    0  612 1609%5D%2C 0%29%2C %28%5B   0    0    0  213    0   10    0    0    0    0    0 4066    0    0%2C    0  319 1552  101   40    0    0  923 2697    0    0 865..." isContainer="True" shape="20000" />
+<var name="dev_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x00000173EA7DB8D0&gt;" isContainer="True" shape="20000" />
+<var name="embedding_size" type="int" qualifier="builtins" value="50" />
+<var name="embeddings_file_path" type="str" qualifier="builtins" value="./models/1st_model_embeddings_state_dict.pt" />
+<var name="epoch" type="int" qualifier="builtins" value="0" />
+<var name="epochs" type="int" qualifier="builtins" value="1" />
+<var name="f" type="BufferedReader" qualifier="_io" value="%3C_io.BufferedReader name=%27./models/1st_model_index_to_word.pkl%27&gt;" isContainer="True" />
