@@ -1,0 +1,646 @@
+2024-03-03 13:14:35,913 INFO    StreamThr :11080 [internal.py:wandb_internal():86] W&B internal server running at pid: 11080, started at: 2024-03-03 13:14:35.902374
+2024-03-03 13:14:35,920 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status
+2024-03-03 13:14:35,938 DEBUG   SenderThread:11080 [sender.py:send():382] send: header
+2024-03-03 13:14:35,939 DEBUG   SenderThread:11080 [sender.py:send():382] send: run
+2024-03-03 13:14:36,472 INFO    SenderThread:11080 [sender.py:_start_run_threads():1136] run started: xpmi25zu with start time 1709442875.053015
+2024-03-03 13:14:36,531 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: check_version
+2024-03-03 13:14:36,532 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: check_version
+2024-03-03 13:14:36,870 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: run_start
+2024-03-03 13:14:36,885 DEBUG   HandlerThread:11080 [system_info.py:__init__():27] System info init
+2024-03-03 13:14:36,885 DEBUG   HandlerThread:11080 [system_info.py:__init__():42] System info init done
+2024-03-03 13:14:36,885 INFO    HandlerThread:11080 [system_monitor.py:start():194] Starting system monitor
+2024-03-03 13:14:36,886 INFO    SystemMonitor:11080 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-03 13:14:36,886 INFO    HandlerThread:11080 [system_monitor.py:probe():214] Collecting system info
+2024-03-03 13:14:36,888 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started cpu monitoring
+2024-03-03 13:14:36,889 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started disk monitoring
+2024-03-03 13:14:36,890 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started gpu monitoring
+2024-03-03 13:14:36,894 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started memory monitoring
+2024-03-03 13:14:36,897 DEBUG   HandlerThread:11080 [system_info.py:probe():151] Probing system
+2024-03-03 13:14:36,910 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started network monitoring
+2024-03-03 13:14:36,910 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:14:36,911 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:14:36,925 DEBUG   HandlerThread:11080 [system_info.py:_probe_git():136] Probing git
+2024-03-03 13:14:37,059 DEBUG   HandlerThread:11080 [system_info.py:_probe_git():144] Probing git done
+2024-03-03 13:14:37,059 DEBUG   HandlerThread:11080 [system_info.py:probe():199] Probing system done
+2024-03-03 13:14:37,060 INFO    HandlerThread:11080 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-03 13:14:37,060 INFO    HandlerThread:11080 [system_monitor.py:probe():227] Publishing system info
+2024-03-03 13:14:37,065 INFO    HandlerThread:11080 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-03 13:14:37,065 DEBUG   SenderThread:11080 [sender.py:send():382] send: files
+2024-03-03 13:14:37,067 INFO    SenderThread:11080 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-03 13:14:37,095 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-03 13:14:37,095 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: python_packages
+2024-03-03 13:14:37,096 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:14:37,098 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:14:37,122 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:14:37,173 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: pause
+2024-03-03 13:14:37,176 INFO    HandlerThread:11080 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-03 13:14:37,176 INFO    HandlerThread:11080 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-03 13:14:37,177 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-03 13:14:37,177 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-03 13:14:37,178 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-03 13:14:37,178 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined disk monitor
+2024-03-03 13:14:37,178 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-03 13:14:37,864 DEBUG   SenderThread:11080 [sender.py:send():382] send: telemetry
+2024-03-03 13:14:37,864 DEBUG   SenderThread:11080 [sender.py:send():382] send: telemetry
+2024-03-03 13:14:38,076 INFO    wandb-upload_0:11080 [upload_job.py:push():131] Uploaded file C:\Users\16979\AppData\Local\Temp\tmpgqufmgvtwandb\68xbzjr3-wandb-metadata.json
+2024-03-03 13:14:38,412 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:14:38,433 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:14:38,453 ERROR   gpu       :11080 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-03 13:14:38,453 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-03 13:14:38,454 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined memory monitor
+2024-03-03 13:14:38,454 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined network monitor
+2024-03-03 13:14:38,455 DEBUG   SenderThread:11080 [sender.py:send():382] send: stats
+2024-03-03 13:14:41,497 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:14:46,534 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:14:51,578 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:14:52,113 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:14:52,115 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:14:52,116 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:14:57,278 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:15:02,317 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:15:07,117 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:15:07,119 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:15:07,131 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:15:08,287 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:15:13,424 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:15:18,450 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:15:22,118 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:15:22,122 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:15:22,145 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:15:24,256 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:15:29,304 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:15:34,338 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:15:37,106 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:15:37,108 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:15:37,154 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:15:40,277 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:15:45,331 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:15:50,374 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:15:52,126 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:15:52,128 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:15:52,158 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:15:56,231 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:16:01,280 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:16:06,307 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:16:07,138 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:16:07,140 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:16:07,169 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:16:12,284 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:16:17,333 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:16:22,151 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:16:22,153 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:16:22,183 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:16:23,248 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:16:28,280 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:16:33,324 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:16:37,144 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:16:37,146 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:16:37,176 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:16:39,311 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:16:44,324 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:16:49,364 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:16:52,153 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:16:52,155 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:16:52,183 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:16:55,269 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:17:00,308 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:17:05,346 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:17:07,160 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:17:07,162 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:17:07,192 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:17:11,353 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:17:16,397 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:17:21,428 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:17:22,159 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:17:22,160 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:17:22,205 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:17:27,338 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:17:32,384 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:17:37,178 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:17:37,179 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:17:37,210 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:17:38,341 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:17:43,384 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:17:48,425 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:17:52,197 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:17:52,198 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:17:52,228 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:17:55,123 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:18:00,179 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:18:05,233 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:18:05,431 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: resume
+2024-03-03 13:18:05,432 INFO    HandlerThread:11080 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-03 13:18:05,432 INFO    HandlerThread:11080 [system_monitor.py:start():194] Starting system monitor
+2024-03-03 13:18:05,433 INFO    SystemMonitor:11080 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-03 13:18:05,436 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started cpu monitoring
+2024-03-03 13:18:05,436 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: pause
+2024-03-03 13:18:05,436 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started disk monitoring
+2024-03-03 13:18:05,438 INFO    HandlerThread:11080 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-03 13:18:05,438 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started gpu monitoring
+2024-03-03 13:18:05,439 INFO    HandlerThread:11080 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-03 13:18:05,444 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-03 13:18:05,444 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started memory monitoring
+2024-03-03 13:18:05,447 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:05,450 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined disk monitor
+2024-03-03 13:18:05,452 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-03 13:18:05,452 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:05,452 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-03 13:18:05,453 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-03 13:18:06,978 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:06,980 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:06,992 ERROR   gpu       :11080 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-03 13:18:06,996 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-03 13:18:06,996 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined memory monitor
+2024-03-03 13:18:06,997 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: resume
+2024-03-03 13:18:06,998 INFO    HandlerThread:11080 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-03 13:18:06,999 INFO    HandlerThread:11080 [system_monitor.py:start():194] Starting system monitor
+2024-03-03 13:18:06,999 INFO    SystemMonitor:11080 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-03 13:18:06,999 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: pause
+2024-03-03 13:18:07,000 DEBUG   SenderThread:11080 [sender.py:send():382] send: stats
+2024-03-03 13:18:07,002 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started cpu monitoring
+2024-03-03 13:18:07,002 INFO    HandlerThread:11080 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-03 13:18:07,003 INFO    HandlerThread:11080 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-03 13:18:07,003 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-03 13:18:07,004 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started disk monitoring
+2024-03-03 13:18:07,004 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined disk monitor
+2024-03-03 13:18:07,004 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-03 13:18:07,005 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-03 13:18:07,005 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-03 13:18:07,005 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: resume
+2024-03-03 13:18:07,005 INFO    HandlerThread:11080 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-03 13:18:07,005 INFO    HandlerThread:11080 [system_monitor.py:start():194] Starting system monitor
+2024-03-03 13:18:07,005 INFO    SystemMonitor:11080 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-03 13:18:07,005 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: pause
+2024-03-03 13:18:07,008 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started cpu monitoring
+2024-03-03 13:18:07,008 INFO    HandlerThread:11080 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-03 13:18:07,008 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started disk monitoring
+2024-03-03 13:18:07,008 INFO    HandlerThread:11080 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-03 13:18:07,008 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started gpu monitoring
+2024-03-03 13:18:07,010 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-03 13:18:07,010 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-03 13:18:07,010 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined disk monitor
+2024-03-03 13:18:07,011 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-03 13:18:07,011 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-03 13:18:07,017 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:07,017 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:07,044 ERROR   gpu       :11080 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-03 13:18:07,045 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-03 13:18:07,045 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: resume
+2024-03-03 13:18:07,046 INFO    HandlerThread:11080 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-03 13:18:07,046 INFO    HandlerThread:11080 [system_monitor.py:start():194] Starting system monitor
+2024-03-03 13:18:07,046 INFO    SystemMonitor:11080 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-03 13:18:07,047 DEBUG   SenderThread:11080 [sender.py:send():382] send: stats
+2024-03-03 13:18:07,049 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started cpu monitoring
+2024-03-03 13:18:07,049 DEBUG   SenderThread:11080 [sender.py:send():382] send: stats
+2024-03-03 13:18:07,050 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started disk monitoring
+2024-03-03 13:18:07,051 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started gpu monitoring
+2024-03-03 13:18:07,055 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started memory monitoring
+2024-03-03 13:18:07,069 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started network monitoring
+2024-03-03 13:18:07,071 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-03 13:18:07,214 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:18:07,215 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:18:07,276 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:18:09,088 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:09,088 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:09,503 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:09,503 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:11,016 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:18:11,517 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:11,518 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:11,940 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:11,941 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:12,859 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: pause
+2024-03-03 13:18:12,859 INFO    HandlerThread:11080 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-03 13:18:12,860 INFO    HandlerThread:11080 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-03 13:18:12,860 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-03 13:18:12,864 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-03 13:18:12,864 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-03 13:18:12,865 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-03 13:18:12,865 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined disk monitor
+2024-03-03 13:18:13,312 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-03 13:18:13,312 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined memory monitor
+2024-03-03 13:18:13,313 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined network monitor
+2024-03-03 13:18:13,313 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: resume
+2024-03-03 13:18:13,313 INFO    HandlerThread:11080 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-03 13:18:13,313 INFO    HandlerThread:11080 [system_monitor.py:start():194] Starting system monitor
+2024-03-03 13:18:13,313 INFO    SystemMonitor:11080 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-03 13:18:13,314 DEBUG   SenderThread:11080 [sender.py:send():382] send: stats
+2024-03-03 13:18:13,316 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started cpu monitoring
+2024-03-03 13:18:13,317 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started disk monitoring
+2024-03-03 13:18:13,317 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started gpu monitoring
+2024-03-03 13:18:13,321 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started memory monitoring
+2024-03-03 13:18:13,334 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started network monitoring
+2024-03-03 13:18:13,340 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-03 13:18:15,363 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:15,364 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:15,769 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:15,771 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:16,335 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:18:17,781 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:17,782 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:18,194 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:18,196 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:20,209 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:20,210 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:20,632 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:20,635 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:21,379 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:18:22,218 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:18:22,218 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:18:22,235 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:18:22,661 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:22,662 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:23,083 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:23,084 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:25,101 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:25,102 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:25,526 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:25,527 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:27,339 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:18:27,546 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:27,547 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:27,967 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:27,968 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:29,976 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:29,976 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:30,400 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:30,400 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:32,398 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:18:32,420 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:32,420 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:32,844 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:32,845 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:34,863 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:34,864 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:35,286 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:35,287 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:37,233 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:18:37,234 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:18:37,249 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:18:37,303 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:37,303 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:37,724 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:37,725 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:38,329 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:18:39,738 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:39,739 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:40,162 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:40,164 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:42,175 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:42,176 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:42,598 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:42,601 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:43,373 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:18:44,609 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:44,609 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:45,029 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:45,031 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:47,052 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:47,052 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:47,474 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:47,476 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:48,421 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:18:49,921 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:49,922 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:51,942 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:51,942 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:52,247 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:18:52,248 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:18:52,264 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:18:52,367 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:52,368 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:54,351 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:18:54,391 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:54,391 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:54,813 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:54,814 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:56,828 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:56,829 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:57,258 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:57,260 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:59,279 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:59,280 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:18:59,398 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:18:59,698 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:18:59,708 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:01,730 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:01,731 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:02,138 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:02,150 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:04,160 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:04,160 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:04,435 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:19:04,587 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:04,587 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:06,602 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:06,603 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:07,023 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:07,024 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:07,255 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:19:07,256 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:19:07,278 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:19:09,044 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:09,044 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:09,471 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:09,475 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:10,353 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:19:11,487 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:11,488 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:11,911 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:11,912 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:13,335 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-03 13:19:13,336 DEBUG   SenderThread:11080 [sender.py:send():382] send: stats
+2024-03-03 13:19:13,932 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:13,933 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:14,356 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:14,359 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:16,360 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:19:16,380 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:16,380 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:16,803 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:16,804 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:18,813 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:18,820 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:19,235 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:19,236 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:21,247 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:21,248 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:21,414 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:19:21,672 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:21,674 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:22,265 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:19:22,266 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:19:22,289 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:19:23,689 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:23,690 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:24,108 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:24,109 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:26,458 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:19:26,542 ERROR   gpu       :11080 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-03 13:19:26,552 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:26,553 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:28,570 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:28,571 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:28,995 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:28,996 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:31,017 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:31,018 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:31,442 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:31,443 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:31,510 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:19:33,463 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:33,464 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:33,900 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:33,901 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:35,908 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:35,908 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:36,335 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:36,336 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:36,548 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:19:37,274 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:19:37,275 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:19:37,306 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:19:38,356 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:38,357 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:38,781 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:38,783 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:40,794 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:40,794 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:41,217 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:41,218 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:42,416 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:19:43,233 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:43,233 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:43,343 DEBUG   SenderThread:11080 [sender.py:send():382] send: stats
+2024-03-03 13:19:43,656 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:43,658 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:45,674 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:45,675 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:46,101 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:46,102 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:48,115 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:48,115 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:48,380 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:19:48,529 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:48,537 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:50,545 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:50,545 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:50,970 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:50,970 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:52,290 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-03 13:19:52,291 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: stop_status
+2024-03-03 13:19:52,319 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:19:52,979 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:52,979 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:53,393 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:19:53,395 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:53,396 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:55,432 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:55,433 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-03 13:19:55,837 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:55,852 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:57,238 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: pause
+2024-03-03 13:19:57,239 INFO    HandlerThread:11080 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-03 13:19:57,239 INFO    HandlerThread:11080 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-03 13:19:57,240 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-03 13:19:57,245 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-03 13:19:57,245 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-03 13:19:57,246 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined disk monitor
+2024-03-03 13:19:57,673 ERROR   gpu       :11080 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-03 13:19:57,674 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-03 13:19:57,675 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined memory monitor
+2024-03-03 13:19:57,675 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined network monitor
+2024-03-03 13:19:57,675 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: resume
+2024-03-03 13:19:57,675 INFO    HandlerThread:11080 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-03 13:19:57,675 INFO    HandlerThread:11080 [system_monitor.py:start():194] Starting system monitor
+2024-03-03 13:19:57,676 INFO    SystemMonitor:11080 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-03 13:19:57,676 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: pause
+2024-03-03 13:19:57,676 DEBUG   SenderThread:11080 [sender.py:send():382] send: stats
+2024-03-03 13:19:57,678 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started cpu monitoring
+2024-03-03 13:19:57,678 INFO    HandlerThread:11080 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-03 13:19:57,679 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started disk monitoring
+2024-03-03 13:19:57,679 INFO    HandlerThread:11080 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-03 13:19:57,680 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started gpu monitoring
+2024-03-03 13:19:57,680 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-03 13:19:57,681 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-03 13:19:57,681 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined disk monitor
+2024-03-03 13:19:57,681 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-03 13:19:57,684 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-03 13:19:57,687 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:57,688 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-03-03 13:19:57,704 ERROR   gpu       :11080 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-03 13:19:57,705 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-03 13:19:57,705 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: resume
+2024-03-03 13:19:57,705 INFO    HandlerThread:11080 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-03 13:19:57,705 INFO    HandlerThread:11080 [system_monitor.py:start():194] Starting system monitor
+2024-03-03 13:19:57,706 INFO    SystemMonitor:11080 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-03 13:19:57,706 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: pause
+2024-03-03 13:19:57,708 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started cpu monitoring
+2024-03-03 13:19:57,708 INFO    HandlerThread:11080 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-03 13:19:57,708 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started disk monitoring
+2024-03-03 13:19:57,708 INFO    HandlerThread:11080 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-03 13:19:57,709 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started gpu monitoring
+2024-03-03 13:19:57,709 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-03 13:19:57,709 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-03 13:19:57,710 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined disk monitor
+2024-03-03 13:19:57,710 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-03 13:19:57,714 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-03 13:19:57,722 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-03 13:19:57,741 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-03 13:19:57,742 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: resume
+2024-03-03 13:19:57,742 INFO    HandlerThread:11080 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-03 13:19:57,742 INFO    HandlerThread:11080 [system_monitor.py:start():194] Starting system monitor
+2024-03-03 13:19:57,743 INFO    SystemMonitor:11080 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-03 13:19:57,743 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: pause
+2024-03-03 13:19:57,745 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started cpu monitoring
+2024-03-03 13:19:57,745 INFO    HandlerThread:11080 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-03 13:19:57,745 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started disk monitoring
+2024-03-03 13:19:57,745 INFO    HandlerThread:11080 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-03 13:19:57,746 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started gpu monitoring
+2024-03-03 13:19:57,746 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-03 13:19:57,746 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-03 13:19:57,746 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined disk monitor
+2024-03-03 13:19:57,747 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-03 13:19:57,747 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-03 13:19:57,757 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-03 13:19:57,778 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-03 13:19:57,779 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: resume
+2024-03-03 13:19:57,779 INFO    HandlerThread:11080 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-03 13:19:57,779 INFO    HandlerThread:11080 [system_monitor.py:start():194] Starting system monitor
+2024-03-03 13:19:57,780 INFO    SystemMonitor:11080 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-03 13:19:57,783 DEBUG   SenderThread:11080 [sender.py:send():382] send: stats
+2024-03-03 13:19:57,783 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started cpu monitoring
+2024-03-03 13:19:57,783 DEBUG   SenderThread:11080 [sender.py:send():382] send: stats
+2024-03-03 13:19:57,783 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started disk monitoring
+2024-03-03 13:19:57,784 DEBUG   SenderThread:11080 [sender.py:send():382] send: stats
+2024-03-03 13:19:57,784 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started gpu monitoring
+2024-03-03 13:19:57,788 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started memory monitoring
+2024-03-03 13:19:57,799 INFO    SystemMonitor:11080 [interfaces.py:start():190] Started network monitoring
+2024-03-03 13:19:57,801 ERROR   gpu       :11080 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-03 13:19:58,376 DEBUG   SenderThread:11080 [sender.py:send():382] send: telemetry
+2024-03-03 13:19:58,380 DEBUG   SenderThread:11080 [sender.py:send():382] send: exit
+2024-03-03 13:19:58,381 INFO    SenderThread:11080 [sender.py:send_exit():589] handling exit code: 0
+2024-03-03 13:19:58,381 INFO    SenderThread:11080 [sender.py:send_exit():591] handling runtime: 114
+2024-03-03 13:19:58,389 INFO    SenderThread:11080 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-03 13:19:58,395 INFO    SenderThread:11080 [sender.py:send_exit():597] send defer
+2024-03-03 13:19:58,396 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:19:58,397 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-03 13:19:58,397 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:19:58,478 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:19:58,478 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-03-03 13:19:58,478 INFO    SenderThread:11080 [sender.py:transition_state():617] send defer: 1
+2024-03-03 13:19:58,478 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:19:58,478 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-03 13:19:58,478 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:19:58,478 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-03-03 13:19:58,480 INFO    SenderThread:11080 [sender.py:transition_state():617] send defer: 2
+2024-03-03 13:19:58,480 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:19:58,480 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-03 13:19:58,480 INFO    HandlerThread:11080 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-03 13:19:58,480 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-03 13:19:58,484 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-03 13:19:58,484 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-03 13:19:58,485 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined disk monitor
+2024-03-03 13:19:58,485 DEBUG   SystemMonitor:11080 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-03 13:19:58,925 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-03 13:19:58,925 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined memory monitor
+2024-03-03 13:19:58,925 INFO    HandlerThread:11080 [interfaces.py:finish():202] Joined network monitor
+2024-03-03 13:19:58,925 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:19:58,925 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-03-03 13:19:58,925 INFO    SenderThread:11080 [sender.py:transition_state():617] send defer: 3
+2024-03-03 13:19:58,926 DEBUG   SenderThread:11080 [sender.py:send():382] send: stats
+2024-03-03 13:19:58,926 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:19:58,926 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-03 13:19:58,926 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:19:58,926 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-03-03 13:19:58,928 INFO    SenderThread:11080 [sender.py:transition_state():617] send defer: 4
+2024-03-03 13:19:58,928 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:19:58,928 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-03 13:19:58,928 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:19:58,928 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-03-03 13:19:58,929 INFO    SenderThread:11080 [sender.py:transition_state():617] send defer: 5
+2024-03-03 13:19:58,929 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:19:58,929 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-03 13:19:58,929 DEBUG   SenderThread:11080 [sender.py:send():382] send: summary
+2024-03-03 13:19:58,940 INFO    SenderThread:11080 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-03 13:19:58,942 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:19:58,942 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-03-03 13:19:58,942 INFO    SenderThread:11080 [sender.py:transition_state():617] send defer: 6
+2024-03-03 13:19:58,942 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:19:58,942 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-03 13:19:58,942 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:19:58,942 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-03-03 13:19:58,942 INFO    SenderThread:11080 [sender.py:transition_state():617] send defer: 7
+2024-03-03 13:19:58,942 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: status_report
+2024-03-03 13:19:58,942 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:19:58,942 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-03 13:19:58,942 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:19:58,944 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-03-03 13:19:59,385 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-03 13:20:01,485 INFO    SenderThread:11080 [sender.py:transition_state():617] send defer: 8
+2024-03-03 13:20:01,486 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: poll_exit
+2024-03-03 13:20:01,486 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:20:01,488 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-03 13:20:01,489 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:20:01,490 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-03-03 13:20:01,490 INFO    SenderThread:11080 [job_builder.py:build():296] Attempting to build job artifact
+2024-03-03 13:20:01,497 INFO    SenderThread:11080 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-03-03 13:20:01,497 INFO    SenderThread:11080 [job_builder.py:_get_program_relpath():444] run is notebook based run
+2024-03-03 13:20:01,499 INFO    SenderThread:11080 [job_builder.py:build():402] adding wandb-job metadata file
+2024-03-03 13:20:01,519 INFO    SenderThread:11080 [sender.py:transition_state():617] send defer: 9
+2024-03-03 13:20:01,519 DEBUG   SenderThread:11080 [sender.py:send():382] send: artifact
+2024-03-03 13:20:01,519 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:20:01,521 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-03 13:20:01,865 INFO    SenderThread:11080 [sender.py:send_artifact():1494] sent artifact job-https___github.com_yanzhuo2001_SI630-CourseFiles.git_Word2Vec_Pytorch_Student.ipynb - {'id': 'QXJ0aWZhY3Q6NzM4NTk5ODc5', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0NDQ2NjAyNw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzM4NTk5ODc5', 'versionIndex': 6}}}
+2024-03-03 13:20:01,865 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:20:01,865 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-03-03 13:20:01,867 INFO    SenderThread:11080 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-03 13:20:02,201 INFO    SenderThread:11080 [sender.py:transition_state():617] send defer: 10
+2024-03-03 13:20:02,203 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:20:02,203 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-03 13:20:02,204 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:20:02,204 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-03-03 13:20:02,204 INFO    SenderThread:11080 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-03 13:20:02,412 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-03 13:20:02,412 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: poll_exit
+2024-03-03 13:20:03,417 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-03 13:20:03,420 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: poll_exit
+2024-03-03 13:20:03,567 INFO    Thread-45 (_thread_body):11080 [sender.py:transition_state():617] send defer: 11
+2024-03-03 13:20:03,571 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:20:03,571 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-03 13:20:03,572 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:20:03,573 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-03-03 13:20:03,573 INFO    SenderThread:11080 [file_pusher.py:join():178] waiting for file pusher
+2024-03-03 13:20:03,575 INFO    SenderThread:11080 [sender.py:transition_state():617] send defer: 12
+2024-03-03 13:20:03,575 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:20:03,576 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-03 13:20:03,576 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:20:03,577 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-03-03 13:20:03,577 INFO    SenderThread:11080 [file_stream.py:finish():595] file stream finish called
+2024-03-03 13:20:03,845 INFO    SenderThread:11080 [file_stream.py:finish():599] file stream finish is done
+2024-03-03 13:20:03,847 INFO    SenderThread:11080 [sender.py:transition_state():617] send defer: 13
+2024-03-03 13:20:03,847 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:20:03,848 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-03 13:20:03,848 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:20:03,849 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-03-03 13:20:03,850 INFO    SenderThread:11080 [sender.py:transition_state():617] send defer: 14
+2024-03-03 13:20:03,850 DEBUG   SenderThread:11080 [sender.py:send():382] send: final
+2024-03-03 13:20:03,850 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: defer
+2024-03-03 13:20:03,850 DEBUG   SenderThread:11080 [sender.py:send():382] send: footer
+2024-03-03 13:20:03,851 INFO    HandlerThread:11080 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-03 13:20:03,851 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: defer
+2024-03-03 13:20:03,852 INFO    SenderThread:11080 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-03-03 13:20:03,853 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-03 13:20:03,853 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: poll_exit
+2024-03-03 13:20:03,856 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-03 13:20:03,857 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: server_info
+2024-03-03 13:20:03,858 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-03 13:20:03,858 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: server_info
+2024-03-03 13:20:03,858 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-03 13:20:03,861 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: job_info
+2024-03-03 13:20:03,920 DEBUG   SenderThread:11080 [sender.py:send_request():409] send_request: job_info
+2024-03-03 13:20:03,922 DEBUG   HandlerThread:11080 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-03 13:20:03,923 INFO    HandlerThread:11080 [handler.py:finish():869] shutting down handler
+2024-03-03 13:20:04,925 INFO    SenderThread:11080 [sender.py:finish():1572] shutting down sender
+2024-03-03 13:20:04,928 INFO    SenderThread:11080 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-03 13:20:04,929 INFO    SenderThread:11080 [file_pusher.py:join():178] waiting for file pusher

@@ -1,0 +1,12 @@
+
+Stopping early at step 200 due to no improvement in 1000 steps.
+Stopping early at step 0 due to no improvement in 1000 steps.
+Stopping early at step 0 due to no improvement in 1000 steps.
+Stopping early at step 0 due to no improvement in 1000 steps.
+Stopping early at step 0 due to no improvement in 1000 steps.
+   inst_id                                               text  predicted_label
+0        0  Really sad review as I absolutely loved the fi...              1.0
+1        1  Excellent content, perfect for Christians who ...              1.0
+2        2  This is an okay book if you need advice on bud...              1.0
+3        3  This is one book you can't put down! This book...              1.0
+4        4  There were to many names that I had no idenity...              1.0

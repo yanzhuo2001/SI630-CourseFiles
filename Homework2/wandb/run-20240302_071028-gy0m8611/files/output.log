@@ -27,3 +27,4 @@ Predicted Label: 1.0
 <var name="epoch" type="int" qualifier="builtins" value="0" />
 <var name="epochs" type="int" qualifier="builtins" value="1" />
 <var name="f" type="BufferedReader" qualifier="_io" value="%3C_io.BufferedReader name=%27./models/1st_model_index_to_word.pkl%27&gt;" isContainer="True" />
+<var name="f1_scores" type="list" qualifier="builtins" value="%5B0.6651983848900457%5D" isContainer="True" shape="1" />

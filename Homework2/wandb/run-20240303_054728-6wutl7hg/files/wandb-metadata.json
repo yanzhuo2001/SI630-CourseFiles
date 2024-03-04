@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-03-02T21:47:30.518140",
+    "startedAt": "2024-03-02T21:47:28.996631",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Word2Vec Pytorch Student.ipynb",
+    "codePathLocal": "Word2Vec Pytorch Student.ipynb",
+    "root": "G:/\u6211\u7684\u4e91\u7aef\u786c\u76d8/SI_630/Homeworks",
+    "git": {
+        "remote": "https://github.com/yanzhuo2001/SI630-CourseFiles.git",
+        "commit": "dc335b37628a0e7200f3188c644c279797bdd2e5"
+    },
+    "email": null,
+    "host": "LAPTOP-DIRME7QS",
+    "username": "16979",
+    "executable": "D:\\Pycharm\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2419.0,
+        "min": 0.0,
+        "max": 2419.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2419.0,
+            "min": 0.0,
+            "max": 2419.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 198.80175399780273,
+            "used": 178.87080001831055
+        }
+    },
+    "memory": {
+        "total": 15.804008483886719
+    }
+}

@@ -3,7 +3,7 @@ import re
 import numpy as np
 import torch
 from torch.utils.data import Dataset, DataLoader
-
+import tensorflow
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -243,19 +243,14 @@ lr = 5e-5
 num_epoch = 1
 max_step = None
 
-model = Word2Vec(vocab_size, embedding_size, context_size)
-criterion = nn.BCELoss()
-optimizer = optim.AdamW(model.parameters(), lr=lr)
-
-batch_sizes = [2, 8, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192]
-times_per_batch = []
-estimated_times_per_epoch = []
-
-last_loss_sum = 0
-loss_sum = 0
-
 best_batch_size = 4096
 train_dataloader = DataLoader(training_data, batch_size=best_batch_size, shuffle=True)
+
+# init the model
+model = Word2Vec(vocab_size, embedding_size, context_size).to(device)
+criterion = nn.BCELoss()
+optimizer = optim.AdamW(model.parameters(), lr=lr)
+writer = SummaryWriter()
 
 wandb.init(project="word2vec_project", entity="yanzhuo")
 wandb.config = {
@@ -266,11 +261,6 @@ wandb.config = {
 
 # 可选：记录模型结构
 wandb.watch(model, log="all")
-
-# init the model
-model = Word2Vec(vocab_size, embedding_size, context_size).to(device)
-optimizer = optim.AdamW(model.parameters(), lr=lr)
-writer = SummaryWriter()
 
 for epoch in range(num_epoch):
     print("Epoch ", epoch)

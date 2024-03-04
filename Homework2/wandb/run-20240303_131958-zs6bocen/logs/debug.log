@@ -1,0 +1,37 @@
+2024-03-03 13:19:58,349 INFO    MainThread:12968 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-03 13:19:58,354 INFO    MainThread:12968 [wandb_setup.py:_flush():76] Configure stats pid to 12968
+2024-03-03 13:19:58,355 INFO    MainThread:12968 [wandb_setup.py:_flush():76] Loading settings from C:\Users\16979\.config\wandb\settings
+2024-03-03 13:19:58,360 INFO    MainThread:12968 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-03 13:19:58,361 INFO    MainThread:12968 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-03 13:19:58,361 INFO    MainThread:12968 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-03 13:19:58,373 INFO    MainThread:12968 [wandb_init.py:init():566] calling init triggers
+2024-03-03 13:19:58,373 INFO    MainThread:12968 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-03 13:19:58,373 INFO    MainThread:12968 [wandb_init.py:init():591] re-initializing run, found existing run on stack: xpmi25zu
+2024-03-03 13:19:58,376 INFO    MainThread:12968 [wandb_run.py:_finish():1970] finishing run yanzhuo/word2vec_project/xpmi25zu
+2024-03-03 13:19:58,377 INFO    MainThread:12968 [jupyter.py:save_history():445] not saving jupyter history
+2024-03-03 13:19:58,377 INFO    MainThread:12968 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-03 13:19:58,377 INFO    MainThread:12968 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-03-03 13:19:58,378 INFO    MainThread:12968 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-03-03 13:19:58,380 INFO    MainThread:12968 [wandb_run.py:_restore():2193] restore
+2024-03-03 13:19:58,380 INFO    MainThread:12968 [wandb_run.py:_restore():2199] restore done
+2024-03-03 13:20:04,926 INFO    MainThread:12968 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-03-03 13:20:04,929 INFO    MainThread:12968 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-03-03 13:20:04,970 INFO    MainThread:12968 [wandb_run.py:_footer_sync_info():3825] logging synced files
+2024-03-03 13:20:05,023 INFO    MainThread:12968 [wandb_init.py:init():616] starting backend
+2024-03-03 13:20:05,023 INFO    MainThread:12968 [wandb_init.py:init():620] setting up manager
+2024-03-03 13:20:05,074 INFO    MainThread:12968 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-03 13:20:05,076 INFO    MainThread:12968 [wandb_init.py:init():628] backend started and connected
+2024-03-03 13:20:05,138 INFO    MainThread:12968 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-03-03 13:20:05,142 INFO    MainThread:12968 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'charmap' codec can't decode byte 0x90 in position 18129: character maps to <undefined>
+2024-03-03 13:20:05,142 INFO    MainThread:12968 [wandb_init.py:init():720] updated telemetry
+2024-03-03 13:20:05,256 INFO    MainThread:12968 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-03 13:20:06,558 INFO    MainThread:12968 [wandb_run.py:_on_init():2262] communicating current version
+2024-03-03 13:20:06,952 INFO    MainThread:12968 [wandb_run.py:_on_init():2271] got version response 
+2024-03-03 13:20:06,952 INFO    MainThread:12968 [wandb_init.py:init():804] starting run threads in backend
+2024-03-03 13:20:07,318 INFO    MainThread:12968 [wandb_run.py:_console_start():2241] atexit reg
+2024-03-03 13:20:07,318 INFO    MainThread:12968 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-03-03 13:20:07,319 INFO    MainThread:12968 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-03-03 13:20:07,323 INFO    MainThread:12968 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-03-03 13:20:07,328 INFO    MainThread:12968 [wandb_init.py:init():847] run started, returning control to user process
+2024-03-03 13:20:07,328 INFO    MainThread:12968 [wandb_watch.py:watch():51] Watching
