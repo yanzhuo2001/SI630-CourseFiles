@@ -1,0 +1,56 @@
+2024-03-05 06:35:45,124 INFO    MainThread:25648 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-05 06:35:45,126 INFO    MainThread:25648 [wandb_setup.py:_flush():76] Configure stats pid to 25648
+2024-03-05 06:35:45,126 INFO    MainThread:25648 [wandb_setup.py:_flush():76] Loading settings from C:\Users\16979\.config\wandb\settings
+2024-03-05 06:35:45,126 INFO    MainThread:25648 [wandb_setup.py:_flush():76] Loading settings from G:\My Drive\SI_630\Homeworks\Homework2 - Backup\wandb\settings
+2024-03-05 06:35:45,127 INFO    MainThread:25648 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-05 06:35:45,127 INFO    MainThread:25648 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-05 06:35:45,127 INFO    MainThread:25648 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-05 06:35:45,129 INFO    MainThread:25648 [wandb_init.py:_log_setup():526] Logging user logs to G:\My Drive\SI_630\Homeworks\Homework2 - Backup\wandb\run-20240305_063545-f3c4knpc\logs\debug.log
+2024-03-05 06:35:45,131 INFO    MainThread:25648 [wandb_init.py:_log_setup():527] Logging internal logs to G:\My Drive\SI_630\Homeworks\Homework2 - Backup\wandb\run-20240305_063545-f3c4knpc\logs\debug-internal.log
+2024-03-05 06:35:45,131 INFO    MainThread:25648 [wandb_init.py:init():566] calling init triggers
+2024-03-05 06:35:45,131 INFO    MainThread:25648 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-05 06:35:45,133 INFO    MainThread:25648 [wandb_init.py:init():591] re-initializing run, found existing run on stack: 10tx22e7
+2024-03-05 06:35:45,135 INFO    MainThread:25648 [wandb_run.py:_finish():1970] finishing run yanzhuo/attention_classifier2/10tx22e7
+2024-03-05 06:35:45,135 INFO    MainThread:25648 [jupyter.py:save_history():445] not saving jupyter history
+2024-03-05 06:35:45,135 INFO    MainThread:25648 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-05 06:35:45,135 INFO    MainThread:25648 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-03-05 06:35:45,135 INFO    MainThread:25648 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-03-05 06:35:45,138 INFO    MainThread:25648 [wandb_run.py:_restore():2193] restore
+2024-03-05 06:35:45,138 INFO    MainThread:25648 [wandb_run.py:_restore():2199] restore done
+2024-03-05 06:35:52,283 INFO    MainThread:25648 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-03-05 06:35:52,285 INFO    MainThread:25648 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-03-05 06:35:52,313 INFO    MainThread:25648 [wandb_run.py:_footer_sync_info():3825] logging synced files
+2024-03-05 06:35:52,782 INFO    MainThread:25648 [wandb_init.py:init():616] starting backend
+2024-03-05 06:35:52,783 INFO    MainThread:25648 [wandb_init.py:init():620] setting up manager
+2024-03-05 06:35:52,821 INFO    MainThread:25648 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-05 06:35:52,822 INFO    MainThread:25648 [wandb_init.py:init():628] backend started and connected
+2024-03-05 06:35:52,901 INFO    MainThread:25648 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-03-05 06:35:52,908 INFO    MainThread:25648 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'charmap' codec can't decode byte 0x81 in position 3710: character maps to <undefined>
+2024-03-05 06:35:52,908 INFO    MainThread:25648 [wandb_init.py:init():720] updated telemetry
+2024-03-05 06:35:53,011 INFO    MainThread:25648 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-05 06:35:53,878 WARNING MainThread:25648 [wandb_init.py:init():1198] interrupted
+Traceback (most recent call last):
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 756, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 655, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 359, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-03-05 06:36:18,970 WARNING MsgRouterThr:25648 [router.py:message_loop():77] message_loop has been closed
