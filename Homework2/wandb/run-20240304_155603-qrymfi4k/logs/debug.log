@@ -1,0 +1,134 @@
+2024-03-04 15:56:03,194 INFO    MainThread:3060 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-04 15:56:03,197 INFO    MainThread:3060 [wandb_setup.py:_flush():76] Configure stats pid to 3060
+2024-03-04 15:56:03,197 INFO    MainThread:3060 [wandb_setup.py:_flush():76] Loading settings from C:\Users\16979\.config\wandb\settings
+2024-03-04 15:56:03,198 INFO    MainThread:3060 [wandb_setup.py:_flush():76] Loading settings from G:\My Drive\SI_630\Homeworks\Homework2\wandb\settings
+2024-03-04 15:56:03,198 INFO    MainThread:3060 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-04 15:56:03,198 INFO    MainThread:3060 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-04 15:56:03,198 INFO    MainThread:3060 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-04 15:56:03,198 WARNING MainThread:3060 [wandb_setup.py:_flush():76] interrupted
+Traceback (most recent call last):
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\IPython\core\interactiveshell.py", line 3577, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "C:\Users\16979\AppData\Local\Temp\ipykernel_3060\2319800785.py", line 11, in <module>
+    wandb.init(project="word2vec_project", entity="yanzhuo")
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 1199, in init
+    raise e
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 1172, in init
+    wi.setup(kwargs)
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 306, in setup
+    wandb_login._login(
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_login.py", line 307, in _login
+    logged_in = wlogin.login()
+                ^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_login.py", line 159, in login
+    self.login_display()
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_login.py", line 164, in login_display
+    username = self._wl._get_username()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_setup.py", line 194, in _get_username
+    self._load_viewer()
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_setup.py", line 216, in _load_viewer
+    s.query_with_timeout()
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\lib\server.py", line 35, in query_with_timeout
+    viewer_tuple, viewer_thread = async_viewer()
+                                  ^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\util.py", line 1188, in wrapper
+    result = q.get(True, timeout)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\queue.py", line 180, in get
+    self.not_empty.wait(remaining)
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 359, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-03-04 15:56:03,203 INFO    MainThread:3060 [wandb_init.py:_log_setup():526] Logging user logs to G:\My Drive\SI_630\Homeworks\Homework2\wandb\run-20240304_155603-qrymfi4k\logs\debug.log
+2024-03-04 15:56:03,205 INFO    MainThread:3060 [wandb_init.py:_log_setup():527] Logging internal logs to G:\My Drive\SI_630\Homeworks\Homework2\wandb\run-20240304_155603-qrymfi4k\logs\debug-internal.log
+2024-03-04 15:56:03,205 INFO    MainThread:3060 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001BA654510A0>
+2024-03-04 15:56:03,206 INFO    MainThread:3060 [wandb_init.py:init():566] calling init triggers
+2024-03-04 15:56:03,206 INFO    MainThread:3060 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-04 15:56:03,206 INFO    MainThread:3060 [wandb_init.py:init():616] starting backend
+2024-03-04 15:56:03,206 INFO    MainThread:3060 [wandb_init.py:init():620] setting up manager
+2024-03-04 15:56:03,241 INFO    MainThread:3060 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-04 15:56:03,246 INFO    MainThread:3060 [wandb_init.py:init():628] backend started and connected
+2024-03-04 15:56:03,367 INFO    MainThread:3060 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-03-04 15:56:03,523 INFO    MainThread:3060 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'charmap' codec can't decode byte 0x8d in position 23498: character maps to <undefined>
+2024-03-04 15:56:03,562 INFO    MainThread:3060 [wandb_init.py:init():720] updated telemetry
+2024-03-04 15:56:03,756 INFO    MainThread:3060 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-04 15:56:04,823 INFO    MainThread:3060 [wandb_run.py:_on_init():2262] communicating current version
+2024-03-04 15:56:05,311 INFO    MainThread:3060 [wandb_run.py:_on_init():2271] got version response 
+2024-03-04 15:56:05,334 INFO    MainThread:3060 [wandb_init.py:init():804] starting run threads in backend
+2024-03-04 15:56:05,835 INFO    MainThread:3060 [wandb_run.py:_console_start():2241] atexit reg
+2024-03-04 15:56:05,836 INFO    MainThread:3060 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-03-04 15:56:05,836 INFO    MainThread:3060 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-03-04 15:56:05,858 INFO    MainThread:3060 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-03-04 15:56:05,908 INFO    MainThread:3060 [wandb_init.py:init():847] run started, returning control to user process
+2024-03-04 15:56:05,909 INFO    MainThread:3060 [wandb_watch.py:watch():51] Watching
+2024-03-04 15:57:14,106 INFO    MainThread:3060 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-04 15:57:14,106 INFO    MainThread:3060 [wandb_init.py:_pause_backend():437] pausing backend
+2024-03-04 16:00:07,580 INFO    MainThread:3060 [wandb_init.py:_resume_backend():442] resuming backend
+2024-03-04 16:00:07,585 INFO    MainThread:3060 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-04 16:00:07,585 INFO    MainThread:3060 [wandb_init.py:_pause_backend():437] pausing backend
+2024-03-04 16:00:08,315 INFO    MainThread:3060 [wandb_init.py:_resume_backend():442] resuming backend
+2024-03-04 16:00:08,316 INFO    MainThread:3060 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-04 16:00:08,317 INFO    MainThread:3060 [wandb_init.py:_pause_backend():437] pausing backend
+2024-03-04 16:00:09,313 INFO    MainThread:3060 [wandb_init.py:_resume_backend():442] resuming backend
+2024-03-04 16:00:09,553 INFO    MainThread:3060 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-04 16:00:09,558 INFO    MainThread:3060 [wandb_setup.py:_flush():76] Configure stats pid to 3060
+2024-03-04 16:00:09,559 INFO    MainThread:3060 [wandb_setup.py:_flush():76] Loading settings from C:\Users\16979\.config\wandb\settings
+2024-03-04 16:00:09,559 INFO    MainThread:3060 [wandb_setup.py:_flush():76] Loading settings from G:\My Drive\SI_630\Homeworks\Homework2\wandb\settings
+2024-03-04 16:00:09,559 INFO    MainThread:3060 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-04 16:00:09,559 INFO    MainThread:3060 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-04 16:00:09,560 INFO    MainThread:3060 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-04 16:00:09,560 WARNING MainThread:3060 [wandb_setup.py:_flush():76] interrupted
+Traceback (most recent call last):
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\IPython\core\interactiveshell.py", line 3577, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "C:\Users\16979\AppData\Local\Temp\ipykernel_3060\2319800785.py", line 11, in <module>
+    wandb.init(project="word2vec_project", entity="yanzhuo")
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 1199, in init
+    raise e
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 1172, in init
+    wi.setup(kwargs)
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 306, in setup
+    wandb_login._login(
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_login.py", line 307, in _login
+    logged_in = wlogin.login()
+                ^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_login.py", line 159, in login
+    self.login_display()
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_login.py", line 164, in login_display
+    username = self._wl._get_username()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_setup.py", line 194, in _get_username
+    self._load_viewer()
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_setup.py", line 216, in _load_viewer
+    s.query_with_timeout()
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\lib\server.py", line 35, in query_with_timeout
+    viewer_tuple, viewer_thread = async_viewer()
+                                  ^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\util.py", line 1188, in wrapper
+    result = q.get(True, timeout)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\queue.py", line 180, in get
+    self.not_empty.wait(remaining)
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 359, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-03-04 16:00:09,566 INFO    MainThread:3060 [wandb_init.py:_log_setup():526] Logging user logs to G:\My Drive\SI_630\Homeworks\Homework2\wandb\run-20240304_160009-solawfm0\logs\debug.log
+2024-03-04 16:00:09,567 INFO    MainThread:3060 [wandb_init.py:_log_setup():527] Logging internal logs to G:\My Drive\SI_630\Homeworks\Homework2\wandb\run-20240304_160009-solawfm0\logs\debug-internal.log
+2024-03-04 16:00:09,568 INFO    MainThread:3060 [wandb_init.py:init():566] calling init triggers
+2024-03-04 16:00:09,568 INFO    MainThread:3060 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-04 16:00:09,569 INFO    MainThread:3060 [wandb_init.py:init():591] re-initializing run, found existing run on stack: qrymfi4k
+2024-03-04 16:00:09,572 INFO    MainThread:3060 [wandb_run.py:_finish():1970] finishing run yanzhuo/word2vec_project/qrymfi4k
+2024-03-04 16:00:09,574 INFO    MainThread:3060 [jupyter.py:save_history():445] not saving jupyter history
+2024-03-04 16:00:09,574 INFO    MainThread:3060 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-04 16:00:09,574 INFO    MainThread:3060 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-03-04 16:00:09,576 INFO    MainThread:3060 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-03-04 16:00:09,580 INFO    MainThread:3060 [wandb_run.py:_restore():2193] restore
+2024-03-04 16:00:09,580 INFO    MainThread:3060 [wandb_run.py:_restore():2199] restore done
+2024-03-04 16:00:16,305 INFO    MainThread:3060 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-03-04 16:00:16,310 INFO    MainThread:3060 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-03-04 16:00:16,343 INFO    MainThread:3060 [wandb_run.py:_footer_sync_info():3825] logging synced files

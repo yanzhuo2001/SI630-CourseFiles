@@ -1,0 +1,56 @@
+Epoch:   0%|          | 0/1 [00:00<?, ?it/s]
+Training:   0%|          | 430/160000 [00:00<01:42, 1552.92it/s]
+
+Training:   1%|          | 1425/160000 [00:04<06:56, 380.32it/s]
+Step 1000, Avg Loss: 0.6714479415416718
+
+Training:   1%|          | 1898/160000 [00:06<07:21, 358.07it/s]
+
+Training:   1%|▏         | 2391/160000 [00:08<07:23, 355.63it/s]
+
+Training:   2%|▏         | 2883/160000 [00:10<07:24, 353.81it/s]
+
+Training:   2%|▏         | 3380/160000 [00:12<07:21, 354.48it/s]
+
+Training:   2%|▏         | 3698/160000 [00:13<09:57, 261.60it/s]
+
+Training:   3%|▎         | 4184/160000 [00:15<09:52, 263.13it/s]
+
+Training:   3%|▎         | 4858/160000 [00:17<07:07, 362.86it/s]
+Step 5000, Avg Loss: 0.642609555363655
+
+Training:   3%|▎         | 5350/160000 [00:19<07:16, 354.64it/s]
+
+
+Training:   4%|▍         | 6354/160000 [00:23<07:09, 358.08it/s]
+Epoch:   0%|          | 0/1 [00:25<?, ?it/s]5<07:09, 356.19it/s]
+Traceback (most recent call last):
+  File "G:\My Drive\SI_630\Homeworks\Homework2 - Backup\test2.py", line 173, in <module>
+    dev_f1 = run_eval(model, dev_loader)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\My Drive\SI_630\Homeworks\Homework2 - Backup\test2.py", line 100, in run_eval
+    probability, _ = model(word_ids)  # 提取概率输出，忽略注意力权重
+                     ^^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\My Drive\SI_630\Homeworks\Homework2 - Backup\test2.py", line 48, in forward
+    embeds = self.embeddings(word_ids)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\sparse.py", line 163, in forward
+    return F.embedding(
+           ^^^^^^^^^^^^
+  File "C:\Users\16979\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\functional.py", line 2237, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Step 6500, Avg Loss: 0.6375436754226684

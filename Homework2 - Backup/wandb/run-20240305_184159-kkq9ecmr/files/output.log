@@ -1,0 +1,417 @@
+
+Step 500, Avg Loss: 0.6428812211155891
+Step 1000, Avg Loss: 0.5474448409676552
+Step 1500, Avg Loss: 0.45812212947383524
+Step 2000, Avg Loss: 0.42723952000401916
+Step 2500, Avg Loss: 0.4883525633569807
+Step 3000, Avg Loss: 0.4156495730150491
+Step 3500, Avg Loss: 0.36012556952470914
+Step 4000, Avg Loss: 0.3417577633084729
+Step 4500, Avg Loss: 0.3920967832491733
+Step 5000, Avg Loss: 0.3840784828560427
+-----Step 5000, F1 Score: 0.8325715421303657-----
+Step 5500, Avg Loss: 0.3230669034321327
+Step 6000, Avg Loss: 0.37746546052070334
+Step 6500, Avg Loss: 0.32513760365359484
+Step 7000, Avg Loss: 0.40121724705654194
+Step 7500, Avg Loss: 0.34134140210109765
+Step 8000, Avg Loss: 0.364142038721242
+Step 8500, Avg Loss: 0.3445951527438592
+Step 9000, Avg Loss: 0.3645264411625685
+Step 9500, Avg Loss: 0.34770809060451574
+Step 10000, Avg Loss: 0.38090697679505686
+-----Step 10000, F1 Score: 0.8408753341915041-----
+Step 10500, Avg Loss: 0.3846508750197245
+Step 11000, Avg Loss: 0.36954770002001897
+Step 11500, Avg Loss: 0.3356831035350915
+Step 12000, Avg Loss: 0.35151935418974606
+Step 12500, Avg Loss: 0.3670144821017748
+Step 13000, Avg Loss: 0.32447489377483724
+Step 13500, Avg Loss: 0.3662807980990037
+Step 14000, Avg Loss: 0.346691668063635
+Step 14500, Avg Loss: 0.3521079688370228
+Step 15000, Avg Loss: 0.3774432544982992
+-----Step 15000, F1 Score: 0.8458930647036033-----
+Step 15500, Avg Loss: 0.38422580164507963
+Step 16000, Avg Loss: 0.38458067367831245
+Step 16500, Avg Loss: 0.3633572807635646
+Step 17000, Avg Loss: 0.3541100440575974
+Step 17500, Avg Loss: 0.3269171479864744
+Step 18000, Avg Loss: 0.38623493435519046
+Step 18500, Avg Loss: 0.32670972296013495
+Step 19000, Avg Loss: 0.34774754039233086
+Step 19500, Avg Loss: 0.33475351629266514
+Step 20000, Avg Loss: 0.33425546094810127
+-----Step 20000, F1 Score: 0.8478425435276306-----
+Step 20500, Avg Loss: 0.33413620193197857
+Step 21000, Avg Loss: 0.3604423094090307
+Step 21500, Avg Loss: 0.33515720801753923
+Step 22000, Avg Loss: 0.3028501317454502
+Step 22500, Avg Loss: 0.3638079494082485
+Step 23000, Avg Loss: 0.33155222914018667
+Step 23500, Avg Loss: 0.34331902391056063
+Step 24000, Avg Loss: 0.3376988568217494
+Step 24500, Avg Loss: 0.35030485091306035
+Step 25000, Avg Loss: 0.3544798495511641
+-----Step 25000, F1 Score: 0.8518895793012122-----
+Step 25500, Avg Loss: 0.36514567488175814
+Step 26000, Avg Loss: 0.3659958391940454
+Step 26500, Avg Loss: 0.3409587247292511
+Step 27000, Avg Loss: 0.32570517355692574
+Step 27500, Avg Loss: 0.2920059213893255
+Step 28000, Avg Loss: 0.31333126253340743
+Step 28500, Avg Loss: 0.3444340310941334
+Step 29000, Avg Loss: 0.3320033138845465
+Step 29500, Avg Loss: 0.3539410379396868
+Step 30000, Avg Loss: 0.3238055614066543
+-----Step 30000, F1 Score: 0.8558134778607219-----
+Step 30500, Avg Loss: 0.2963154657483683
+Step 31000, Avg Loss: 0.3113998849853524
+Step 31500, Avg Loss: 0.3640167974243523
+Step 32000, Avg Loss: 0.38605658049322666
+Step 32500, Avg Loss: 0.2767815940564033
+Step 33000, Avg Loss: 0.3383172350444365
+Step 33500, Avg Loss: 0.3221945590004325
+Step 34000, Avg Loss: 0.33138402272335954
+Step 34500, Avg Loss: 0.3171791229277733
+Step 35000, Avg Loss: 0.35450470710164517
+-----Step 35000, F1 Score: 0.8526261585993821-----
+Step 35500, Avg Loss: 0.33059987619140885
+Step 36000, Avg Loss: 0.31370841228810603
+Step 36500, Avg Loss: 0.35207653165166264
+Step 37000, Avg Loss: 0.31381453483365473
+Step 37500, Avg Loss: 0.32681510504980543
+Step 38000, Avg Loss: 0.3548027248379658
+Step 38500, Avg Loss: 0.3509022107368364
+Step 39000, Avg Loss: 0.3159721879439021
+Step 39500, Avg Loss: 0.32930317754420685
+Step 40000, Avg Loss: 0.24533388038784323
+-----Step 40000, F1 Score: 0.8626961127210953-----
+Step 40500, Avg Loss: 0.3740036346671404
+Step 41000, Avg Loss: 0.31559845189368935
+Step 41500, Avg Loss: 0.32481806659764695
+Step 42000, Avg Loss: 0.331228268446408
+Step 42500, Avg Loss: 0.3511430788739817
+Step 43000, Avg Loss: 0.30462025536899456
+Step 43500, Avg Loss: 0.3663467973194638
+Step 44000, Avg Loss: 0.2964044854508247
+Step 44500, Avg Loss: 0.35622013779147527
+Step 45000, Avg Loss: 0.32463360612516406
+-----Step 45000, F1 Score: 0.8573778920308484-----
+Step 45500, Avg Loss: 0.29163904823717895
+Step 46000, Avg Loss: 0.2817850196629006
+Step 46500, Avg Loss: 0.3575947117816686
+Step 47000, Avg Loss: 0.3881711214251118
+Step 47500, Avg Loss: 0.33475840471772245
+Step 48000, Avg Loss: 0.329809689311136
+Step 48500, Avg Loss: 0.31449550658218506
+Step 49000, Avg Loss: 0.3183089518209163
+Step 49500, Avg Loss: 0.32406000854688316
+Step 50000, Avg Loss: 0.27064733090717347
+-----Step 50000, F1 Score: 0.8670316973928769-----
+Step 50500, Avg Loss: 0.30091190020593056
+Step 51000, Avg Loss: 0.33395938824571203
+Step 51500, Avg Loss: 0.3197993086046772
+Step 52000, Avg Loss: 0.3071944967727468
+Step 52500, Avg Loss: 0.33436509666236813
+Step 53000, Avg Loss: 0.32414973135822217
+Step 53500, Avg Loss: 0.3081326543854957
+Step 54000, Avg Loss: 0.3136280823803099
+Step 54500, Avg Loss: 0.329284475400229
+Step 55000, Avg Loss: 0.31310600777555375
+-----Step 55000, F1 Score: 0.8675291455556102-----
+Step 55500, Avg Loss: 0.28217810165292756
+Step 56000, Avg Loss: 0.31475614644179584
+Step 56500, Avg Loss: 0.33322776316555974
+Step 57000, Avg Loss: 0.2952446295542395
+Step 57500, Avg Loss: 0.3221058479981293
+Step 58000, Avg Loss: 0.30656710309354823
+Step 58500, Avg Loss: 0.2928332729168251
+Step 59000, Avg Loss: 0.3242384089246625
+Step 59500, Avg Loss: 0.33896278242365224
+Step 60000, Avg Loss: 0.3046632178289001
+-----Step 60000, F1 Score: 0.8688657290296469-----
+Step 60500, Avg Loss: 0.3890144479278824
+Step 61000, Avg Loss: 0.3389384769073804
+Step 61500, Avg Loss: 0.2775040173748857
+Step 62000, Avg Loss: 0.27431069659107016
+Step 62500, Avg Loss: 0.3108033841070428
+Step 63000, Avg Loss: 0.2977680558387656
+Step 63500, Avg Loss: 0.36401415480702415
+Step 64000, Avg Loss: 0.31338214798731495
+Step 64500, Avg Loss: 0.3016781566672071
+Step 65000, Avg Loss: 0.3175482646382297
+-----Step 65000, F1 Score: 0.8701292171552114-----
+Step 65500, Avg Loss: 0.32405105917019683
+Step 66000, Avg Loss: 0.29235226683829385
+Step 66500, Avg Loss: 0.3678938947840361
+Step 67000, Avg Loss: 0.3448479398935742
+Step 67500, Avg Loss: 0.31455245149435357
+Step 68000, Avg Loss: 0.30879326578474137
+Step 68500, Avg Loss: 0.3395848136817367
+Step 69000, Avg Loss: 0.29840948522510735
+Step 69500, Avg Loss: 0.3662716589093907
+Step 70000, Avg Loss: 0.3758171544777579
+-----Step 70000, F1 Score: 0.8680307149329899-----
+Step 70500, Avg Loss: 0.3356206023877021
+Step 71000, Avg Loss: 0.30290524656439083
+Step 71500, Avg Loss: 0.2528762241212098
+Step 72000, Avg Loss: 0.2576042988125046
+Step 72500, Avg Loss: 0.25156554546629195
+Step 73000, Avg Loss: 0.27085654839948986
+Step 73500, Avg Loss: 0.3620223593171745
+Step 74000, Avg Loss: 0.30258066548890566
+Step 74500, Avg Loss: 0.3255193048286346
+Step 75000, Avg Loss: 0.31828403630436514
+-----Step 75000, F1 Score: 0.8688043646096042-----
+Step 75500, Avg Loss: 0.27729844187566777
+Step 76000, Avg Loss: 0.33329406042295157
+Step 76500, Avg Loss: 0.3150152763186379
+Step 77000, Avg Loss: 0.33126075541763567
+Step 77500, Avg Loss: 0.3509530569666531
+Step 78000, Avg Loss: 0.2922908519895864
+Step 78500, Avg Loss: 0.33840746297308943
+Step 79000, Avg Loss: 0.31330714519135655
+Step 79500, Avg Loss: 0.2563914116424712
+Step 80000, Avg Loss: 0.3113973224741312
+-----Step 80000, F1 Score: 0.8736578908663039-----
+Step 80500, Avg Loss: 0.3087915291509162
+Step 81000, Avg Loss: 0.31017654441180637
+Step 81500, Avg Loss: 0.3302200553607836
+Step 82000, Avg Loss: 0.3188463292084562
+Step 82500, Avg Loss: 0.3105971581103222
+Step 83000, Avg Loss: 0.3240256538016838
+Step 83500, Avg Loss: 0.31750071503620714
+Step 84000, Avg Loss: 0.34698414839286124
+Step 84500, Avg Loss: 0.3164626210544666
+Step 85000, Avg Loss: 0.332825619855721
+-----Step 85000, F1 Score: 0.8692953446960061-----
+Step 85500, Avg Loss: 0.3052052548867941
+Step 86000, Avg Loss: 0.31946282093452466
+Step 86500, Avg Loss: 0.3129693130936939
+Step 87000, Avg Loss: 0.32985425661493356
+Step 87500, Avg Loss: 0.3244927635054337
+Step 88000, Avg Loss: 0.3711165375588753
+Step 88500, Avg Loss: 0.31118932848497205
+Step 89000, Avg Loss: 0.2806734012259403
+Step 89500, Avg Loss: 0.33782589657048084
+Step 90000, Avg Loss: 0.31807041681039844
+-----Step 90000, F1 Score: 0.8751497005988024-----
+Step 90500, Avg Loss: 0.340174519617809
+Step 91000, Avg Loss: 0.3058922077723764
+Step 91500, Avg Loss: 0.32000815116631565
+Step 92000, Avg Loss: 0.33753837767908407
+Step 92500, Avg Loss: 0.3619515161793679
+Step 93000, Avg Loss: 0.3046872700749664
+Step 93500, Avg Loss: 0.2826956534026831
+Step 94000, Avg Loss: 0.34797490653452406
+Step 94500, Avg Loss: 0.30172380194731524
+Step 95000, Avg Loss: 0.33400249547273414
+-----Step 95000, F1 Score: 0.8716773602199817-----
+Step 95500, Avg Loss: 0.28752993979250824
+Step 96000, Avg Loss: 0.357462884078559
+Step 96500, Avg Loss: 0.3177825661117313
+Step 97000, Avg Loss: 0.3194261782561807
+Step 97500, Avg Loss: 0.3158916843980842
+Step 98000, Avg Loss: 0.36299685241471163
+Step 98500, Avg Loss: 0.3013501747082169
+Step 99000, Avg Loss: 0.2967942714848632
+Step 99500, Avg Loss: 0.32122548371268206
+Step 100000, Avg Loss: 0.2848556789195063
+-----Step 100000, F1 Score: 0.8755331143683514-----
+Step 100500, Avg Loss: 0.32523064211646124
+Step 101000, Avg Loss: 0.34276441655098777
+Step 101500, Avg Loss: 0.2748138697318791
+Step 102000, Avg Loss: 0.3183437275594479
+Step 102500, Avg Loss: 0.2893537791685076
+Step 103000, Avg Loss: 0.29142143814727023
+Step 103500, Avg Loss: 0.31040818159167977
+Step 104000, Avg Loss: 0.28801147152128853
+Step 104500, Avg Loss: 0.29603209099781813
+Step 105000, Avg Loss: 0.2913872847129396
+-----Step 105000, F1 Score: 0.8739444500966528-----
+Step 105500, Avg Loss: 0.2774327610369874
+Step 106000, Avg Loss: 0.3151144960749557
+Step 106500, Avg Loss: 0.3298336279265495
+Step 107000, Avg Loss: 0.2906158825745515
+Step 107500, Avg Loss: 0.32933779262707685
+Step 108000, Avg Loss: 0.28352250136969087
+Step 108500, Avg Loss: 0.3108258404888511
+Step 109000, Avg Loss: 0.3052152257040167
+Step 109500, Avg Loss: 0.29773593296905165
+Step 110000, Avg Loss: 0.3325010016297456
+-----Step 110000, F1 Score: 0.8604911308794545-----
+Step 110500, Avg Loss: 0.2946411326789307
+Step 111000, Avg Loss: 0.28019759890589646
+Step 111500, Avg Loss: 0.3194788165943901
+Step 112000, Avg Loss: 0.3053230869923718
+Step 112500, Avg Loss: 0.34865815355989616
+Step 113000, Avg Loss: 0.31166132472618485
+Step 113500, Avg Loss: 0.3614163905502792
+Step 114000, Avg Loss: 0.267800949379307
+Step 114500, Avg Loss: 0.31286570582684364
+Step 115000, Avg Loss: 0.30436933177514586
+-----Step 115000, F1 Score: 0.8639220615964802-----
+Step 115500, Avg Loss: 0.3418928799170826
+Step 116000, Avg Loss: 0.3544673362992653
+Step 116500, Avg Loss: 0.33137457823199656
+Step 117000, Avg Loss: 0.3064120001631673
+Step 117500, Avg Loss: 0.31693846899404887
+Step 118000, Avg Loss: 0.3226713344923919
+Step 118500, Avg Loss: 0.26740489919583343
+Step 119000, Avg Loss: 0.2839405400140095
+Step 119500, Avg Loss: 0.2872119442755939
+Step 120000, Avg Loss: 0.2867811652262226
+-----Step 120000, F1 Score: 0.8763945977686436-----
+Step 120500, Avg Loss: 0.3896928867633433
+Step 121000, Avg Loss: 0.29728474023367746
+Step 121500, Avg Loss: 0.3193212360469042
+Step 122000, Avg Loss: 0.30988444190288283
+Step 122500, Avg Loss: 0.3106237812770123
+Step 123000, Avg Loss: 0.3411924639430072
+Step 123500, Avg Loss: 0.2967303343239619
+Step 124000, Avg Loss: 0.35112691154281495
+Step 124500, Avg Loss: 0.31885131700077907
+Step 125000, Avg Loss: 0.29001529512371055
+-----Step 125000, F1 Score: 0.8721178263077705-----
+Step 125500, Avg Loss: 0.29024828196905583
+Step 126000, Avg Loss: 0.301037295493883
+Step 126500, Avg Loss: 0.30377621440798974
+Step 127000, Avg Loss: 0.2954272490186704
+Step 127500, Avg Loss: 0.3132245110631338
+Step 128000, Avg Loss: 0.34115934631682465
+Step 128500, Avg Loss: 0.2660027704300446
+Step 129000, Avg Loss: 0.28410886806321106
+Step 129500, Avg Loss: 0.33160326761350734
+Step 130000, Avg Loss: 0.3538924316658886
+-----Step 130000, F1 Score: 0.8737739661885751-----
+Step 130500, Avg Loss: 0.2702808586594183
+Step 131000, Avg Loss: 0.30283393307476947
+Step 131500, Avg Loss: 0.3026082728584879
+Step 132000, Avg Loss: 0.2875168690646533
+Step 132500, Avg Loss: 0.3356005213985336
+Step 133000, Avg Loss: 0.29340715738985457
+Step 133500, Avg Loss: 0.2982941774385254
+Step 134000, Avg Loss: 0.3082002830369238
+Step 134500, Avg Loss: 0.3264979268999887
+Step 135000, Avg Loss: 0.28699611749300674
+-----Step 135000, F1 Score: 0.876307213385865-----
+Step 135500, Avg Loss: 0.34016945978563307
+Step 136000, Avg Loss: 0.2489660988780961
+Step 136500, Avg Loss: 0.31710794699788314
+Step 137000, Avg Loss: 0.30834739116314447
+Step 137500, Avg Loss: 0.2913804287999519
+Step 138000, Avg Loss: 0.29675122487836053
+Step 138500, Avg Loss: 0.3055104978771378
+Step 139000, Avg Loss: 0.30329444415314355
+Step 139500, Avg Loss: 0.3150939090016072
+Step 140000, Avg Loss: 0.3194492277812242
+-----Step 140000, F1 Score: 0.8756740999854249-----
+Step 140500, Avg Loss: 0.2896223505862581
+Step 141000, Avg Loss: 0.2782449003181828
+Step 141500, Avg Loss: 0.3978046798169962
+Step 142000, Avg Loss: 0.318867640735858
+Step 142500, Avg Loss: 0.3258934787909384
+Step 143000, Avg Loss: 0.3215490283487015
+Step 143500, Avg Loss: 0.28044830003214155
+Step 144000, Avg Loss: 0.277400568312878
+Step 144500, Avg Loss: 0.31080412363702636
+Step 145000, Avg Loss: 0.2941443721879623
+-----Step 145000, F1 Score: 0.8771878072763029-----
+Step 145500, Avg Loss: 0.29326168283983134
+Step 146000, Avg Loss: 0.3153037644408323
+Step 146500, Avg Loss: 0.3113569809488836
+Step 147000, Avg Loss: 0.2761211872853164
+Step 147500, Avg Loss: 0.2784015164898592
+Step 148000, Avg Loss: 0.3118961544896883
+Step 148500, Avg Loss: 0.2937939737428169
+Step 149000, Avg Loss: 0.29394716603953563
+Step 149500, Avg Loss: 0.32657485766174793
+Step 150000, Avg Loss: 0.31776912143154185
+-----Step 150000, F1 Score: 0.8761765423067545-----
+Step 150500, Avg Loss: 0.2907852579447208
+Step 151000, Avg Loss: 0.3207350111053092
+Step 151500, Avg Loss: 0.3567585173927364
+Step 152000, Avg Loss: 0.3756544621001813
+Step 152500, Avg Loss: 0.30588435990337165
+Step 153000, Avg Loss: 0.2871279410807474
+Step 153500, Avg Loss: 0.3094923200001658
+Step 154000, Avg Loss: 0.3348749359839712
+Step 154500, Avg Loss: 0.3164969310528832
+Step 155000, Avg Loss: 0.28914759135994245
+-----Step 155000, F1 Score: 0.860909620373802-----
+Step 155500, Avg Loss: 0.28617537397748677
+Step 156000, Avg Loss: 0.374040005380346
+Step 156500, Avg Loss: 0.2954624872524582
+Step 157000, Avg Loss: 0.2648639549124346
+Step 157500, Avg Loss: 0.2964862815766137
+Step 158000, Avg Loss: 0.30175929834024284
+Step 158500, Avg Loss: 0.3147269876294886
+Step 159000, Avg Loss: 0.2868315224905964
+Step 159500, Avg Loss: 0.3233983454032532
+Step 160000, Avg Loss: 0.34132237111524594
+-----Step 160000, F1 Score: 0.8746648793565683-----
+   inst_id                                               text  predicted_label
+0        0  Really sad review as I absolutely loved the fi...              0.0
+1        1  Excellent content, perfect for Christians who ...              1.0
+2        2  This is an okay book if you need advice on bud...              0.0
+3        3  This is one book you can't put down! This book...              1.0
+4        4  There were to many names that I had no idenity...              0.0
+   inst_id                                               text  predicted_label
+0        0  Really sad review as I absolutely loved the fi...              0.0
+1        1  Excellent content, perfect for Christians who ...              1.0
+2        2  This is an okay book if you need advice on bud...              0.0
+3        3  This is one book you can't put down! This book...              1.0
+4        4  There were to many names that I had no idenity...              0.0
+<xml><var name="_dummy_ipython_val"  />
+<var name="_dummy_special_var"  />
+<var name="RegexpTokenizer" type="ABCMeta" qualifier="abc" value="%3Cclass %27nltk.tokenize.regexp.RegexpTokenizer%27&gt;" isContainer="True" />
+<var name="avg_loss" type="float" qualifier="builtins" value="0.34132237111524594" />
+<var name="batch_size" type="int" qualifier="builtins" value="1" />
+<var name="best_f1" type="float64" qualifier="numpy" value="0.8787487586891758" shape="()" />
+<var name="dev_data_path" type="str" qualifier="builtins" value="sentiment.dev.csv" />
+<var name="dev_dataset" type="TextDataset" qualifier="__main__" value="%3C__main__.TextDataset object at 0x000001D21275CB00&gt;" isContainer="True" shape="20000" />
+<var name="dev_f1" type="float64" qualifier="numpy" value="0.8746648793565683" shape="()" />
+<var name="dev_list" type="list" qualifier="builtins" value="%5B%28%5B  96   96  193    4 7609   62   71   27  234   64  329   11   96    1%2C  629  314 7041 1811 1900 1018  177   96  104    4  105  106 4116   11%2C  264   11    1 1693  992   13 6499%5D%2C array%280%29%29%2C %28%5B   96   288     7  1160    71     3  1056   223   281    83 16366  2101%2C   268   607   140     7  1283    24 10093  1475    96 19270    98   951%2C 11996  2253   727   398     7    70    96     7 16366   781  2101   268%2C     7  3551    58    77  6499%5D%2C array%280%29%29%2C %28%5B  96    1   18 1818   27    0   21   96   15   88 5047   61    0   36%2C   61   96   13  104  190 4549   98   40   83 1712   61   96 1601   96%2C   96  551  200   81 1903    7   21  307   96 1043   96  772  200  172%2C   11  671 2278   96   96 1594   47   33 3211   15 3408  268    7  117%2C   24   33 5050%5D%2C array%281%29%29%2C %28%5B  96  193    4   18 1288   13  742 3822  862   96 3545 4912   77  128%2C 1236  884   96  128 3472  200  719 1755%5D%2C array%280%29%29%2C %28%5B  96  124  310  288    0   21   96    1  310   64   33 4288    6   96%2C  408  409 1695  151   62   11 ..." isContainer="True" shape="20000" />
+<var name="dev_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x000001D21275C920&gt;" isContainer="True" shape="20000" />
+<var name="device" type="device" qualifier="torch" value="device%28type=%27cpu%27%29" isContainer="True" />
+<var name="embedding_size" type="int" qualifier="builtins" value="50" />
+<var name="embeddings_file_path" type="str" qualifier="builtins" value="./models/min3_model_embeddings_state_dict.pt" />
+<var name="epoch" type="int" qualifier="builtins" value="0" />
+<var name="epochs" type="int" qualifier="builtins" value="1" />
+<var name="f" type="BufferedReader" qualifier="_io" value="%3C_io.BufferedReader name=%27./models/min3_model_index_to_word.pkl%27&gt;" isContainer="True" />
+<var name="f1_scores" type="list" qualifier="builtins" value="%5B0.6048686739269699%2C 0.7792653968574749%2C 0.7975781209913284%2C 0.8161589774688622%2C 0.8187199595244118%2C 0.813777917584146%2C 0.8303874747673674%2C 0.8170436612309311%2C 0.8330008549444287%2C 0.8325715421303657%2C 0.8361570659756827%2C 0.828547561866973%2C 0.8341237009383513%2C 0.8341139533686757%2C 0.8316831683168316%2C 0.8405148849460763%2C 0.8378129790495656%2C 0.8405504864646872%2C 0.8394062078272605%2C 0.8408753341915041%2C 0.8382902482723317%2C 0.8423566103016422%2C 0.83565401935918%2C 0.8444828082290318%2C 0.8419405320813772%2C 0.8456768688923062%2C 0.8443616967745182%2C 0.8446540574707055%2C 0.837059064807219%2C 0.8458930647036033%2C 0.8417938483212022%2C 0.8452273411623005%2C 0.8461146756288828%2C 0.8466338592663994%2C 0.8435843326985434%2C 0.8490575471226439%2C 0.8501098462152986%2C 0.8497527200791296%2C 0.8488279698053238%2C 0.8478425435276306%2C 0.8486608260325407%2C 0.8503769572781752%2C 0.848188643119867%2C 0.8508696313574362%2C 0.8529198666859875%2C 0.8518219440799435%2C 0.852245292129406%2C 0.8535965598123534%2C 0.8532034903340886%2C 0.8518895793012122%2C 0.8548..." isContainer="True" shape="320" />
+<var name="index_to_word" type="dict" qualifier="builtins" value="%7B0%3A %27this%27%2C 1%3A %27was%27%2C 2%3A %27bought%27%2C 3%3A %27as%27%2C 4%3A %27a%27%2C 5%3A %27gift%27%2C 6%3A %27but%27%2C 7%3A %27the%27%2C 8%3A %27person%27%2C 9%3A %27who%27%2C 10%3A %27got%27%2C 11%3A %27it%27%2C 12%3A %27loved%27%2C 13%3A %27and%27%2C 14%3A %27they%27%2C 15%3A %27will%27%2C 16%3A %27use%27%2C 17%3A %27soon%27%2C 18%3A %27very%27%2C 19%3A %27well%27%2C 20%3A %27written%27%2C 21%3A %27book%27%2C 22%3A %27on%27%2C 23%3A %27period%27%2C 24%3A %27of%27%2C 25%3A %27world%27%2C 26%3A %27history%27%2C 27%3A %27with%27%2C 28%3A %27which%27%2C 29%3A %27i%27%2C 30%3A %27am%27%2C 31%3A %27familiar%27%2C 32%3A %27despite%27%2C 33%3A %27my%27%2C 34%3A %27familiarity%27%2C 35%3A %27subject%27%2C 36%3A %27area%27%2C 37%3A %27learned%27%2C 38%3A %27lot%27%2C 39%3A %27new%27%2C 40%3A %27information%27%2C 41%3A %27also%27%2C 42%3A %27one%27%2C 43%3A %27best%27%2C 44%3A %27concise%27%2C 45%3A %27descriptions%27%2C 46%3A %27wwii%27%2C 47%3A %27that%27%2C 48%3A %27have%27%2C 49%3A %27ever%27%2C 50%3A %27read%27%2C 51%3A %27thought%27%2C 52%3A %27provoking%27%2C 53%3A %27hot%27%2C 54%3A %27cross%27%2C 55%3A %27buns%27%2C 56%3A %27contains%27%2C 57%3A %27cast%27%2C 58%3A %27characters%27%2C 59%3A %27you%27%2C 60%3A %27fall%27%2C 61%3A %27in%27%2C 62%3A %27love%27%2C 63%3A %27want%27%2C 64%3A %27to%27%2C 65%3A %27hang%27%2C 66%3A %27out%27%2C 67%3A %27has%27%2C 68%3A %27few%27%2C 69%3A %27different%27%2C 70%3A %27plot%27%2C 71%3A %27story%27%2C 72%3A %27lines%27%2C 73%3A %27intersect%27%2C 74%3A %27unexpected%27%2C 75%3A %27ways%27%2C 76%3A %27stories%27%2C 77%3A %27are%27%2C 78%3A %27full%27%2C 79%3A %27h..." isContainer="True" shape="40547" />
+<var name="index_to_word_file" type="str" qualifier="builtins" value="./models/min3_model_index_to_word.pkl" />
+<var name="labels" type="Tensor" qualifier="torch" value="tensor%28%5B1.%5D%29" isContainer="True" shape="(1,)" />
+<var name="learning_rate" type="float" qualifier="builtins" value="0.001" />
+<var name="loss" type="Tensor" qualifier="torch" value="tensor%280.5430%2C grad_fn=%3CBinaryCrossEntropyBackward0&gt;%29" isContainer="True" shape="()" />
+<var name="loss_function" type="BCELoss" qualifier="torch.nn.modules.loss" value="BCELoss%28%29" isContainer="True" />
+<var name="losses" type="list" qualifier="builtins" value="%5B0.6428812211155891%2C 0.5474448409676552%2C 0.45812212947383524%2C 0.42723952000401916%2C 0.4883525633569807%2C 0.4156495730150491%2C 0.36012556952470914%2C 0.3417577633084729%2C 0.3920967832491733%2C 0.3840784828560427%2C 0.3230669034321327%2C 0.37746546052070334%2C 0.32513760365359484%2C 0.40121724705654194%2C 0.34134140210109765%2C 0.364142038721242%2C 0.3445951527438592%2C 0.3645264411625685%2C 0.34770809060451574%2C 0.38090697679505686%2C 0.3846508750197245%2C 0.36954770002001897%2C 0.3356831035350915%2C 0.35151935418974606%2C 0.3670144821017748%2C 0.32447489377483724%2C 0.3662807980990037%2C 0.346691668063635%2C 0.3521079688370228%2C 0.3774432544982992%2C 0.38422580164507963%2C 0.38458067367831245%2C 0.3633572807635646%2C 0.3541100440575974%2C 0.3269171479864744%2C 0.38623493435519046%2C 0.32670972296013495%2C 0.34774754039233086%2C 0.33475351629266514%2C 0.33425546094810127%2C 0.33413620193197857%2C 0.3604423094090307%2C 0.33515720801753923%2C 0.3028501317454502%2C 0.3638079494082485%2C 0.33155222914018667%2C 0.34331902391056063%2C 0.3376988568217494%2C 0.3503048509130603..." isContainer="True" shape="320" />
+<var name="max_steps" type="int" qualifier="builtins" value="1000000000" />
+<var name="model" type="DocumentAttentionClassifier" qualifier="__main__" value="DocumentAttentionClassifier%28%0A  %28embeddings%29%3A Embedding%2840547%2C 50%29%0A  %28linear%29%3A Linear%28in_features=200%2C out_features=1%2C bias=True%29%0A%29" isContainer="True" />
+<var name="num_heads" type="int" qualifier="builtins" value="4" />
+<var name="optimizer" type="AdamW" qualifier="torch.optim.adamw" value="AdamW %28%0AParameter Group 0%0A    amsgrad%3A False%0A    betas%3A %280.9%2C 0.999%29%0A    capturable%3A False%0A    differentiable%3A False%0A    eps%3A 1e-08%0A    foreach%3A None%0A    fused%3A None%0A    lr%3A 0.001%0A    maximize%3A False%0A    weight_decay%3A 0.01%0A%29" isContainer="True" />
+<var name="patience" type="int" qualifier="builtins" value="100000" />
+<var name="prediction" type="float" qualifier="builtins" value="1.0" />
+<var name="predictions" type="list" qualifier="builtins" value="%5B0.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C..." isContainer="True" shape="20000" />
+<var name="probability" type="Tensor" qualifier="torch" value="tensor%28%5B0.7145%5D%29" isContainer="True" shape="(1,)" />
+<var name="running_loss" type="float" qualifier="builtins" value="0.0" />
+<var name="sent_dev_df" type="DataFrame" qualifier="pandas.core.frame" value="%5B%27text%27%2C %27label%27%5D %5B0      Picturing Perfect is a sappy love story with l...      0%5D %5B1      Seems like the same story as any other series ...      0%5D %5B2      I was very pleased with this book. I will be t...      1%5D %5B3      It is a very light and rather silly novel. The...      0%5D %5B4      I did not like this book. It was not to my tas...      0%5D %5B...                                                  ...    ...%5D %5B19995  Great content%2C the story is fantastic%2C but sho...      1%5D %5B19996  Typical book club book... Incest%2C child abuse%2C...      0%5D %5B19997  Fascinating book. Shorter than most Russell Ba...      1%5D %5B19998  This book is not well-organized%2C which is impo...      0%5D %5B19999  CAN WE CALL THIS A CLASSIC OF THE GENRE%3F I THI...      1%5D %5B%5D" isContainer="True" shape="(20000, 2)" />
+<var name="sent_test_df" type="DataFrame" qualifier="pandas.core.frame" value="%5B%27inst_id%27%2C %27text%27%2C %27predicted_label%27%5D %5B0            0  Really sad review as I absolutely loved the fi...   %5D %5B1            1  Excellent content%2C perfect for Christians who ...   %5D %5B2            2  This is an okay book if you need advice on bud...   %5D %5B3            3  This is one book you can%27t put down%21 This book...   %5D %5B4            4  There were to many names that I had no idenity...   %5D %5B...        ...                                                ...   %5D %5B19995    19995  I found this book to be a very entertaining an...   %5D %5B19996    19996  Wow%2C what a Middle School%21 Read this book your...   %5D %5B19997    19997  Not what I expected. Not enough about circular...   %5D %5B19998    19998  I like Joanne Fluke%27s mystery series starring ...   %5D %5B19999    19999  Grow some chickens%2C improve your land%2C make al...   %5D %5B%5D %5B0                  0.0  %5D %5B1                  1.0  %5D %5B2                  0.0  %5D %5B3                  1.0  %5D %5B4                  0.0  %5D %5B...                ...  %5D %5B19995         ..." isContainer="True" shape="(20000, 3)" />
+<var name="sent_train_df" type="DataFrame" qualifier="pandas.core.frame" value="%5B%27text%27%2C %27label%27%5D %5B0       It was what I needed. There was no markings or...      1%5D %5B1       A cute little book. My wife gets the family wa...      1%5D %5B2       I bought these for 40.00 and for the price I j...      0%5D %5B3       It was interesting and enjoyable reading. Shor...      1%5D %5B4       A perfect ending to an amazing story. This was...      1%5D %5B...                                                   ...    ...%5D %5B159995  After reading every book Stephen King has to o...      1%5D %5B159996  Baby boomers who are experiencing %22aging eyeba...      0%5D %5B159997  Must read%2C must have%2C must read again. This bo...      1%5D %5B159998  Dr. Chopra%27s books are always enlightening and...      1%5D %5B159999  Boooring%21%21 Just enough to keep you intrigued f...      0%5D %5B%5D" isContainer="True" shape="(160000, 2)" />
+<var name="step" type="int" qualifier="builtins" value="159999" />
+<var name="steps_since_improvement" type="int" qualifier="builtins" value="1500" />
+<var name="test_data" type="list" qualifier="builtins" value="%5Btensor%28%5B   96%2C   885%2C   626%2C     3%2C    96%2C  1132%2C    12%2C     7%2C   285%2C    21%2C%0A           96%2C    21%2C     1%2C  4050%2C     4%2C  6499...8504%2C  7595%2C     7%2C%0A         2087%2C   762%2C     7%2C   727%2C    42%2C   335%2C   385%2C   514%2C    98%2C   629%2C%0A          102%2C    13%2C   450%5D%29%2C tensor%28%5B  96%2C 1669%2C 1427%2C   98%2C   96%2C    9%2C   77%2C  207%2C 2651%2C  314%2C  804%2C   24%2C%0A           7%2C   96%2C   13%2C   86%2C 1887%2C   61%2C    7%2C  693%5D%29%2C tensor%28%5B   96%2C   193%2C   314%2C  4921%2C    21%2C   335%2C    59%2C   661%2C   633%2C    22%2C%0A         8229%2C    13%2C  3966%2C    96%2C   360%2C   345...  719%2C    96%2C   309%2C   497%2C    94%2C   719%2C  1105%2C%0A           59%2C    80%2C    32%2C     7%2C   269%2C   154%2C 20119%2C    64%2C     7%2C  2881%5D%29%2C tensor%28%5B  96%2C  193%2C   42%2C   21%2C   59%2C   92%2C  200%2C  506%2C  108%2C   96%2C   21%2C   15%2C%0A          80%2C   59%2C  218%2C   13%2C 8965%2C   59%2C   ...7%2C    4%2C  768%2C   13%2C%0A        3576%2C  677%2C   86%2C  678%2C   64%2C  287%2C  193%2C  537%2C  265%2C   96%2C  151%2C  329%2C%0A           0%2C  679%2C   21%5D%29%2C tensor%28%5B  96%2C  336%2C   64%2C  141%2C  352%2C   47%2C   96%2C  104%2C  204%2C   96%2C   27%2C   61%2C%0A       ..." isContainer="True" shape="20000" />
+<var name="test_data_path" type="str" qualifier="builtins" value="sentiment.test.csv" />
+<var name="test_list" type="list" qualifier="builtins" value="%5Btensor%28%5B   96%2C   885%2C   626%2C     3%2C    96%2C  1132%2C    12%2C     7%2C   285%2C    21%2C%0A           96%2C    21%2C     1%2C  4050%2C     4%2C  6499...8504%2C  7595%2C     7%2C%0A         2087%2C   762%2C     7%2C   727%2C    42%2C   335%2C   385%2C   514%2C    98%2C   629%2C%0A          102%2C    13%2C   450%5D%29%2C tensor%28%5B  96%2C 1669%2C 1427%2C   98%2C   96%2C    9%2C   77%2C  207%2C 2651%2C  314%2C  804%2C   24%2C%0A           7%2C   96%2C   13%2C   86%2C 1887%2C   61%2C    7%2C  693%5D%29%2C tensor%28%5B   96%2C   193%2C   314%2C  4921%2C    21%2C   335%2C    59%2C   661%2C   633%2C    22%2C%0A         8229%2C    13%2C  3966%2C    96%2C   360%2C   345...  719%2C    96%2C   309%2C   497%2C    94%2C   719%2C  1105%2C%0A           59%2C    80%2C    32%2C     7%2C   269%2C   154%2C 20119%2C    64%2C     7%2C  2881%5D%29%2C tensor%28%5B  96%2C  193%2C   42%2C   21%2C   59%2C   92%2C  200%2C  506%2C  108%2C   96%2C   21%2C   15%2C%0A          80%2C   59%2C  218%2C   13%2C 8965%2C   59%2C   ...7%2C    4%2C  768%2C   13%2C%0A        3576%2C  677%2C   86%2C  678%2C   64%2C  287%2C  193%2C  537%2C  265%2C   96%2C  151%2C  329%2C%0A           0%2C  679%2C   21%5D%29%2C tensor%28%5B  96%2C  336%2C   64%2C  141%2C  352%2C   47%2C   96%2C  104%2C  204%2C   96%2C   27%2C   61%2C%0A       ..." isContainer="True" shape="20000" />
+<var name="test_output" type="DataFrame" qualifier="pandas.core.frame" value="%5B%27inst_id%27%2C %27predicted_label%27%5D %5B0            0              0.0%5D %5B1            1              1.0%5D %5B2            2              0.0%5D %5B3            3              1.0%5D %5B4            4              0.0%5D %5B...        ...              ...%5D %5B19995    19995              1.0%5D %5B19996    19996              1.0%5D %5B19997    19997              0.0%5D %5B19998    19998              1.0%5D %5B19999    19999              1.0%5D %5B%5D" isContainer="True" shape="(20000, 2)" />
+<var name="tokenizer" type="RegexpTokenizer" qualifier="nltk.tokenize.regexp" value="RegexpTokenizer%28pattern=%27%5C%5Cw%2B%27%2C gaps=False%2C discard_empty=True%2C flags=re.UNICODE%7Cre.MULTILINE%7Cre.DOTALL%29" isContainer="True" />
+<var name="train_data_path" type="str" qualifier="builtins" value="sentiment.train.csv" />
+<var name="train_dataset" type="TextDataset" qualifier="__main__" value="%3C__main__.TextDataset object at 0x000001D21275C830&gt;" isContainer="True" shape="160000" />
+<var name="train_list" type="list" qualifier="builtins" value="%5B%28%5B   96     1   287    96   248    96     1   204 16850   291   110    24%2C    47    96   193   306    64    50    13    93%5D%2C array%281%29%29%2C %28%5B  96  884  234   21   96 1191 2472    7  693 1931 1926  268   96   96%2C   85 1688   96   21   67    7 1160  884 1578%5D%2C array%281%29%29%2C %28%5B  96    2  320   98 3569 7030   13   98    7  366   96  128 5745   14%2C  151   88  105 9655   96   88   96  123   59 1956  320   59  175   11%2C   15  128   88   96  140  105 9655 5834%5D%2C array%280%29%29%2C %28%5B  96    1  358   13  333  341   96   76 1775   83   96  241 1635 3070%2C   24   96   13 1196  729   61  305   95   96   76 1426   48    4  699%2C  117   96  115    4  486   24   96   96  356   76   96   62%5D%2C array%281%29%29%2C %28%5B  96 1427 1233   64  314  679   71   96    1  314 1131 1554 1555   98%2C  265 1905   96    1 7419   98 3204   87  310 1588  335   14  151  539%2C  232  287   14 1905  249    0    1    4  615  710   96   12   11%5D%2C array%281%29%29%2C %28%5B   96    64    88   314  1774  3195    24   345    24    96    26    96%2C    13  1178   341    ..." isContainer="True" shape="160000" />
+<var name="train_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x000001D21275C890&gt;" isContainer="True" shape="160000" />
+<var name="vocab_size" type="int" qualifier="builtins" value="40547" />
+<var name="word_ids" type="Tensor" qualifier="torch" value="tensor%28%5B  96%2C  345%2C 8879%2C 1977%2C  385%2C 1364%2C   80%2C 4134%2C   24%2C 1105%2C  680%2C   19%2C%0A          13%2C   96%2C   96%2C   96%2C   94%2C   61%2C    0%2C   21%2C   13%2C   61%2C   96%2C   24%2C%0A          96%2C   96%2C  180%5D%29" isContainer="True" shape="(27,)" />
+<var name="word_to_index" type="dict" qualifier="builtins" value="%7B%270%27%3A 6860%2C %2700%27%3A 7030%2C %27000%27%3A 7717%2C %27001%27%3A 38825%2C %27007%27%3A 28099%2C %2700am%27%3A 25993%2C %2701%27%3A 24762%2C %2702%27%3A 29846%2C %2703%27%3A 11089%2C %27039%27%3A 38140%2C %2704%27%3A 8057%2C %2705%27%3A 32280%2C %2706%27%3A 30353%2C %2707%27%3A 7063%2C %2708%27%3A 24586%2C %2709%27%3A 22275%2C %270f%27%3A 37971%2C %271%27%3A 793%2C %2710%27%3A 1684%2C %27100%27%3A 870%2C %271000%27%3A 10968%2C %2710000%27%3A 31123%2C %271000s%27%3A 20833%2C %271000x%27%3A 33996%2C %271001%27%3A 7910%2C %27100k%27%3A 39109%2C %27100s%27%3A 25367%2C %27100th%27%3A 879%2C %27101%27%3A 7005%2C %27101st%27%3A 26963%2C %27102%27%3A 29336%2C %27103%27%3A 31073%2C %27104%27%3A 31072%2C %27105%27%3A 27289%2C %27106%27%3A 11911%2C %271066%27%3A 34895%2C %27107%27%3A 733%2C %27108%27%3A 15245%2C %27109%27%3A 34772%2C %2710k%27%3A 16506%2C %2710th%27%3A 24530%2C %2710x%27%3A 22765%2C %2710yr%27%3A 28921%2C %2711%27%3A 3831%2C %27110%27%3A 18961%2C %271100%27%3A 36651%2C %27111%27%3A 18962%2C %27112%27%3A 11145%2C %27113%27%3A 32771%2C %27114%27%3A 24557%2C %27115%27%3A 15244%2C %27116%27%3A 19634%2C %27117%27%3A 39597%2C %27118%27%3A 21937%2C %27119%27%3A 38487%2C %2711pm%27%3A 25792%2C %2711th%27%3A 10687%2C %2712%27%3A 1681%2C %27120%27%3A 14299%2C %271200%27%3A 13958%2C %27121%27%3A 33184%2C %27122%27%3A 38431%2C %27123%27%3A 18402%2C %27124%27%3A 39041%2C %27125%27%3A 25024%2C %27126%27%3A 39242%2C %27127%27%3A 35211%2C %27128%27%3A 37280%2C %27129%27%3A 39683%2C %2712th%27%3A 10890%2C %2712yr%27%3A 17641%2C %2713%27%3A 3671%2C %27130%27..." isContainer="True" shape="40547" />
+<var name="word_to_index_file" type="str" qualifier="builtins" value="./models/min3_model_word_to_index.pkl" />
