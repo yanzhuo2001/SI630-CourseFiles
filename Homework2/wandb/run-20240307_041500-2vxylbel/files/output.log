@@ -1,0 +1,225 @@
+
+Step 500, Avg Loss: 0.6982478505969048
+Step 1000, Avg Loss: 0.6887902120351791
+Step 1500, Avg Loss: 0.6803132127523422
+Step 2000, Avg Loss: 0.6546256139278411
+Step 2500, Avg Loss: 0.646370014846325
+Step 3000, Avg Loss: 0.6378106025457382
+Step 3500, Avg Loss: 0.629500599205494
+Step 4000, Avg Loss: 0.6310585688948631
+Step 4500, Avg Loss: 0.6219370874762535
+Step 5000, Avg Loss: 0.6213759669065475
+-----Step 5000, F1 Score: 0.7265720791732353-----
+Step 5500, Avg Loss: 0.6085629497766495
+Step 6000, Avg Loss: 0.6097733683586121
+Step 6500, Avg Loss: 0.5990260052680969
+Step 7000, Avg Loss: 0.5996174159646034
+Step 7500, Avg Loss: 0.6060014656186103
+Step 8000, Avg Loss: 0.6207401604056358
+Step 8500, Avg Loss: 0.5940673837661743
+Step 9000, Avg Loss: 0.6063492959141731
+Step 9500, Avg Loss: 0.622618989944458
+Step 10000, Avg Loss: 0.6105497368574142
+-----Step 10000, F1 Score: 0.7745658263305322-----
+Step 10500, Avg Loss: 0.6090377967953682
+Step 11000, Avg Loss: 0.5937544196844101
+Step 11500, Avg Loss: 0.5882238870859147
+Step 12000, Avg Loss: 0.5854093530774116
+Step 12500, Avg Loss: 0.5994642388224601
+Step 13000, Avg Loss: 0.5954220543503761
+Step 13500, Avg Loss: 0.5882585833072662
+Step 14000, Avg Loss: 0.6035495607852935
+Step 14500, Avg Loss: 0.5939019084572792
+Step 15000, Avg Loss: 0.5839720293283462
+-----Step 15000, F1 Score: 0.8068017753061334-----
+Step 15500, Avg Loss: 0.5869262726902962
+Step 16000, Avg Loss: 0.5892071822285652
+Step 16500, Avg Loss: 0.5935140097737313
+Step 17000, Avg Loss: 0.5763756719827652
+Step 17500, Avg Loss: 0.6009614428877831
+Step 18000, Avg Loss: 0.5687113980054855
+Step 18500, Avg Loss: 0.5934694032073021
+Step 19000, Avg Loss: 0.5887894294857979
+Step 19500, Avg Loss: 0.5897268104553223
+Step 20000, Avg Loss: 0.5685136885046959
+-----Step 20000, F1 Score: 0.8208931671137762-----
+Step 20500, Avg Loss: 0.5814743709564208
+Step 21000, Avg Loss: 0.5832818610668182
+Step 21500, Avg Loss: 0.5986498064398765
+Step 22000, Avg Loss: 0.5792898619771004
+Step 22500, Avg Loss: 0.5531527904868125
+Step 23000, Avg Loss: 0.601695644915104
+Step 23500, Avg Loss: 0.5814208207726479
+Step 24000, Avg Loss: 0.5829702944755554
+Step 24500, Avg Loss: 0.5748277083039284
+Step 25000, Avg Loss: 0.5729327010512352
+-----Step 25000, F1 Score: 0.8342451874366767-----
+Step 25500, Avg Loss: 0.5573665695786476
+Step 26000, Avg Loss: 0.5807060867547988
+Step 26500, Avg Loss: 0.5712959107160568
+Step 27000, Avg Loss: 0.5874128600358963
+Step 27500, Avg Loss: 0.573247762799263
+Step 28000, Avg Loss: 0.580672060251236
+Step 28500, Avg Loss: 0.589815200150013
+Step 29000, Avg Loss: 0.5820265125632286
+Step 29500, Avg Loss: 0.592826967716217
+Step 30000, Avg Loss: 0.563544795691967
+-----Step 30000, F1 Score: 0.8269603986362444-----
+Step 30500, Avg Loss: 0.6047077862620354
+Step 31000, Avg Loss: 0.5680143965482711
+Step 31500, Avg Loss: 0.5817869540452957
+Step 32000, Avg Loss: 0.5874051730036736
+Step 32500, Avg Loss: 0.5755716954469681
+Step 33000, Avg Loss: 0.5868581484556198
+Step 33500, Avg Loss: 0.5829168593287468
+Step 34000, Avg Loss: 0.5699205582737923
+Step 34500, Avg Loss: 0.5738218342661857
+Step 35000, Avg Loss: 0.5877192673683167
+-----Step 35000, F1 Score: 0.8202710665880967-----
+Step 35500, Avg Loss: 0.5656997691392899
+Step 36000, Avg Loss: 0.5750408653616905
+Step 36500, Avg Loss: 0.5695977668762207
+Step 37000, Avg Loss: 0.5621061787009239
+Step 37500, Avg Loss: 0.5830457600355148
+Step 38000, Avg Loss: 0.5762682530879975
+Step 38500, Avg Loss: 0.5730634294748306
+Step 39000, Avg Loss: 0.5919893706440925
+Step 39500, Avg Loss: 0.5758745361566544
+Step 40000, Avg Loss: 0.5852817957997322
+-----Step 40000, F1 Score: 0.8177041009805515-----
+Step 40500, Avg Loss: 0.6006463089585304
+Step 41000, Avg Loss: 0.5821637394428253
+Step 41500, Avg Loss: 0.582190606057644
+Step 42000, Avg Loss: 0.5891429494023324
+Step 42500, Avg Loss: 0.5893324574828148
+Step 43000, Avg Loss: 0.5837200975418091
+Step 43500, Avg Loss: 0.5855760334134101
+Step 44000, Avg Loss: 0.5821775795817375
+Step 44500, Avg Loss: 0.5738029621839523
+Step 45000, Avg Loss: 0.5713299633264541
+-----Step 45000, F1 Score: 0.8033833744118306-----
+Step 45500, Avg Loss: 0.5929221083521843
+Step 46000, Avg Loss: 0.5765976189374924
+Step 46500, Avg Loss: 0.5747759228348732
+Step 47000, Avg Loss: 0.5834654438495636
+Step 47500, Avg Loss: 0.5742838118076324
+Step 48000, Avg Loss: 0.5956691418886184
+Step 48500, Avg Loss: 0.5823382036685943
+Step 49000, Avg Loss: 0.5883081848025322
+Step 49500, Avg Loss: 0.5861878836154938
+Step 50000, Avg Loss: 0.5763718126416206
+-----Step 50000, F1 Score: 0.8161949513714348-----
+Step 50500, Avg Loss: 0.555914281129837
+Step 51000, Avg Loss: 0.57423551684618
+Step 51500, Avg Loss: 0.5772978017926216
+Step 52000, Avg Loss: 0.5794002965092659
+Step 52500, Avg Loss: 0.5844532484412194
+Step 53000, Avg Loss: 0.5801411798000335
+Step 53500, Avg Loss: 0.5744883460402489
+Step 54000, Avg Loss: 0.5838474533557891
+Step 54500, Avg Loss: 0.5765820645689964
+Step 55000, Avg Loss: 0.5866300573945046
+-----Step 55000, F1 Score: 0.821976838136278-----
+Early stopping triggered.
+   inst_id                                               text  predicted_label
+0        0  Really sad review as I absolutely loved the fi...              0.0
+1        1  Excellent content, perfect for Christians who ...              1.0
+2        2  This is an okay book if you need advice on bud...              0.0
+3        3  This is one book you can't put down! This book...              1.0
+4        4  There were to many names that I had no idenity...              0.0
+C:\Users\16979\AppData\Local\Temp\ipykernel_19104\448138506.py:11: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ..\torch\csrc\utils\tensor_new.cpp:278.)
+  word_ids_tensor = torch.tensor([word_ids], dtype=torch.long)
+Text: Great analysis of what is happening to young adult...
+Predicted Label: 1.0, Actual Label: 1
+Text: It was a good read. A little slow for me at times ...
+Predicted Label: 1.0, Actual Label: 1
+Text: I liked the Ogre Detective series but this is like...
+Predicted Label: 1.0, Actual Label: 0
+Text: Seriously, what is going on here? Treating other l...
+Predicted Label: 1.0, Actual Label: 0
+Text: Ever is a young girl with some unique problems. I ...
+Predicted Label: 1.0, Actual Label: 1
+Text: Letty is a very believable character with real hum...
+Predicted Label: 1.0, Actual Label: 1
+Text: Not much I can add to all the glowing reviews exce...
+Predicted Label: 1.0, Actual Label: 1
+Text: It seems odd to be evaluating such a great author ...
+Predicted Label: 1.0, Actual Label: 1
+Text: If you want to actually know about U.S. military h...
+Predicted Label: 1.0, Actual Label: 1
+Text: I am kicking myself for not being more careful bef...
+Predicted Label: 1.0, Actual Label: 0
+Text: Didn't like this one .. too hard for me to get int...
+Predicted Label: 1.0, Actual Label: 0
+Text: Great meal plans for diagnosis in the infertility ...
+Predicted Label: 1.0, Actual Label: 0
+Text: Not scary enough for me. Easy reading and written ...
+Predicted Label: 1.0, Actual Label: 0
+Text: I got bogged down in the wierd and somewhat crude ...
+Predicted Label: 1.0, Actual Label: 0
+Text: I read about half of the book. I was looking for s...
+Predicted Label: 1.0, Actual Label: 0
+<xml><var name="_dummy_ipython_val"  />
+<var name="_dummy_special_var"  />
+<var name="RegexpTokenizer" type="ABCMeta" qualifier="abc" value="%3Cclass %27nltk.tokenize.regexp.RegexpTokenizer%27&gt;" isContainer="True" />
+<var name="attention_weights" type="Tensor" qualifier="torch" value="tensor%28%5B%5B%5B3.6427e-03%2C 1.4154e-03%2C 8.2280e-03%2C 6.2032e-03%5D%2C%0A         %5B7.2335e-03%2C 5.6404e-03%2C 1.1789e-02%2C 1.3567e-02%5D%2C%0A        ...2e-03%2C 9.6919e-03%2C 3.2839e-02%5D%2C%0A         %5B7.2335e-03%2C 5.6404e-03%2C 1.1789e-02%2C 1.3567e-02%5D%5D%5D%2C%0A       grad_fn=%3CSoftmaxBackward0&gt;%29" isContainer="True" shape="(1, 43, 4)" />
+<var name="attn" type="ndarray" qualifier="numpy" value="%5B%5B1.49015039e-02 1.32947834e-03 4.29059984e-03 1.17985820e-02%5D%2C %5B7.08481902e-03 1.56250305e-03 1.22918542e-02 2.49786559e-03%5D%2C %5B6.33056164e-02 7.20900064e-03 4.03079903e-03 1.01746165e-03%5D%2C %5B3.25106829e-01 6.03127177e-04 6.11749897e-03 5.75937191e-03%5D%2C %5B5.52168824e-02 3.87144065e-03 1.25152082e-03 2.54655182e-02%5D%2C %5B1.31271193e-02 3.07755941e-03 7.07181403e-04 1.51256640e-02%5D%2C %5B5.33084422e-02 8.52114614e-03 4.40499373e-03 3.47301401e-02%5D%2C %5B1.49015039e-02 1.32947834e-03 4.29059984e-03 1.17985820e-02%5D%2C %5B5.37277572e-02 3.10996398e-02 3.84561606e-02 2.57748459e-02%5D%2C %5B6.51062205e-02 3.82643752e-02 1.45980313e-01 1.66879017e-02%5D%2C %5B3.90986428e-02 2.07367982e-03 1.56811439e-03 3.78715398e-04%5D%2C %5B2.81894337e-02 1.18868798e-01 9.31308512e-03 1.00923564e-04%5D%2C %5B4.17880761e-03 1.64818438e-03 2.68899679e-01 2.57123530e-01%5D%2C %5B3.23156752e-02 1.74270749e-01 1.27515430e-03 1.76152200e-04%5D%2C %5B1.02746347e-02 1.77496218e-03 4.13065523e-01 1.82634175e-01%5D%2C %5B1.01266149e-02 7.43248500e-03 5.69010060e-03 2.076996..." isContainer="True" shape="(21, 4)" />
+<var name="avg_loss" type="float" qualifier="builtins" value="0.5866300573945046" />
+<var name="batch_size" type="int" qualifier="builtins" value="1" />
+<var name="best_f1" type="float64" qualifier="numpy" value="0.8342451874366767" shape="()" />
+<var name="dev_data_path" type="str" qualifier="builtins" value="sentiment.dev.csv" />
+<var name="dev_dataset" type="TextDataset" qualifier="__main__" value="%3C__main__.TextDataset object at 0x000001E74CABC560&gt;" isContainer="True" shape="20000" />
+<var name="dev_f1" type="float64" qualifier="numpy" value="0.821976838136278" shape="()" />
+<var name="dev_list" type="list" qualifier="builtins" value="%5B%28%5B  96   96  193    4 7609   62   71   27  234   64  329   11   96    1%2C  629  314 7041 1811 1900 1018  177   96  104    4  105  106 4116   11%2C  264   11    1 1693  992   13 6499%5D%2C array%280%29%29%2C %28%5B   96   288     7  1160    71     3  1056   223   281    83 16366  2101%2C   268   607   140     7  1283    24 10093  1475    96 19270    98   951%2C 11996  2253   727   398     7    70    96     7 16366   781  2101   268%2C     7  3551    58    77  6499%5D%2C array%280%29%29%2C %28%5B  96    1   18 1818   27    0   21   96   15   88 5047   61    0   36%2C   61   96   13  104  190 4549   98   40   83 1712   61   96 1601   96%2C   96  551  200   81 1903    7   21  307   96 1043   96  772  200  172%2C   11  671 2278   96   96 1594   47   33 3211   15 3408  268    7  117%2C   24   33 5050%5D%2C array%281%29%29%2C %28%5B  96  193    4   18 1288   13  742 3822  862   96 3545 4912   77  128%2C 1236  884   96  128 3472  200  719 1755%5D%2C array%280%29%29%2C %28%5B  96  124  310  288    0   21   96    1  310   64   33 4288    6   96%2C  408  409 1695  151   62   11 ..." isContainer="True" shape="20000" />
+<var name="dev_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x000001E74CD88B00&gt;" isContainer="True" shape="20000" />
+<var name="device" type="device" qualifier="torch" value="device%28type=%27cpu%27%29" isContainer="True" />
+<var name="embedding_size" type="int" qualifier="builtins" value="50" />
+<var name="embeddings_file_path" type="str" qualifier="builtins" value="./models/1st_model_embeddings_state_dict.pt" />
+<var name="epoch" type="int" qualifier="builtins" value="0" />
+<var name="epochs" type="int" qualifier="builtins" value="1" />
+<var name="f" type="BufferedReader" qualifier="_io" value="%3C_io.BufferedReader name=%27./models/1st_model_index_to_word.pkl%27&gt;" isContainer="True" />
+<var name="f1_scores" type="list" qualifier="builtins" value="%5B0.0%2C 0.00020064205457463884%2C 0.06667312724101172%2C 0.5947459661288171%2C 0.5853592469695944%2C 0.6634740966478014%2C 0.6%2C 0.694801666364789%2C 0.7014223722275795%2C 0.7265720791732353%2C 0.7696662855898525%2C 0.7338785046728972%2C 0.7612670905305801%2C 0.7116318601262749%2C 0.7112139855028324%2C 0.7507067443604685%2C 0.7721969107678631%2C 0.7811558477129553%2C 0.7537520203186331%2C 0.7745658263305322%2C 0.7659938419432091%2C 0.784462392176254%2C 0.7482352941176471%2C 0.7922368205855095%2C 0.8034577853203224%2C 0.7826183844011142%2C 0.7934681352402871%2C 0.8032232070910555%2C 0.781989458338006%2C 0.8068017753061334%2C 0.7964078414193407%2C 0.7821882379399527%2C 0.7888357611475593%2C 0.8108280933603326%2C 0.7897253419326142%2C 0.8190436285549678%2C 0.7920725936647554%2C 0.8134634874913319%2C 0.8080207545130256%2C 0.8208931671137762%2C 0.7996248482842326%2C 0.8106473732519842%2C 0.8073904512753434%2C 0.8206135229805753%2C 0.8208306844670481%2C 0.7802480425215751%2C 0.7907342853930057%2C 0.8039355796185346%2C 0.8246056782334384%2C 0.8342451874366767%2C 0.8338729259409146%2C 0.80211..." isContainer="True" shape="110" />
+<var name="i" type="int" qualifier="builtins" value="0" />
+<var name="index_to_word" type="dict" qualifier="builtins" value="%7B0%3A %27this%27%2C 1%3A %27was%27%2C 2%3A %27bought%27%2C 3%3A %27as%27%2C 4%3A %27a%27%2C 5%3A %27gift%27%2C 6%3A %27but%27%2C 7%3A %27the%27%2C 8%3A %27person%27%2C 9%3A %27who%27%2C 10%3A %27got%27%2C 11%3A %27it%27%2C 12%3A %27loved%27%2C 13%3A %27and%27%2C 14%3A %27they%27%2C 15%3A %27will%27%2C 16%3A %27use%27%2C 17%3A %27soon%27%2C 18%3A %27very%27%2C 19%3A %27well%27%2C 20%3A %27written%27%2C 21%3A %27book%27%2C 22%3A %27on%27%2C 23%3A %27period%27%2C 24%3A %27of%27%2C 25%3A %27world%27%2C 26%3A %27history%27%2C 27%3A %27with%27%2C 28%3A %27which%27%2C 29%3A %27i%27%2C 30%3A %27am%27%2C 31%3A %27familiar%27%2C 32%3A %27despite%27%2C 33%3A %27my%27%2C 34%3A %27familiarity%27%2C 35%3A %27subject%27%2C 36%3A %27area%27%2C 37%3A %27learned%27%2C 38%3A %27lot%27%2C 39%3A %27new%27%2C 40%3A %27information%27%2C 41%3A %27also%27%2C 42%3A %27one%27%2C 43%3A %27best%27%2C 44%3A %27concise%27%2C 45%3A %27descriptions%27%2C 46%3A %27wwii%27%2C 47%3A %27that%27%2C 48%3A %27have%27%2C 49%3A %27ever%27%2C 50%3A %27read%27%2C 51%3A %27thought%27%2C 52%3A %27provoking%27%2C 53%3A %27hot%27%2C 54%3A %27cross%27%2C 55%3A %27buns%27%2C 56%3A %27contains%27%2C 57%3A %27cast%27%2C 58%3A %27characters%27%2C 59%3A %27you%27%2C 60%3A %27fall%27%2C 61%3A %27in%27%2C 62%3A %27love%27%2C 63%3A %27want%27%2C 64%3A %27to%27%2C 65%3A %27hang%27%2C 66%3A %27out%27%2C 67%3A %27has%27%2C 68%3A %27few%27%2C 69%3A %27different%27%2C 70%3A %27plot%27%2C 71%3A %27story%27%2C 72%3A %27lines%27%2C 73%3A %27intersect%27%2C 74%3A %27unexpected%27%2C 75%3A %27ways%27%2C 76%3A %27stories%27%2C 77%3A %27are%27%2C 78%3A %27full%27%2C 79%3A %27h..." isContainer="True" shape="40547" />
+<var name="index_to_word_file" type="str" qualifier="builtins" value="./models/1st_model_index_to_word.pkl" />
+<var name="labels" type="list" qualifier="builtins" value="%5B0%5D" isContainer="True" shape="1" />
+<var name="learning_rate" type="float" qualifier="builtins" value="0.001" />
+<var name="loss" type="Tensor" qualifier="torch" value="tensor%280.6933%2C grad_fn=%3CBinaryCrossEntropyWithLogitsBackward0&gt;%29" isContainer="True" shape="()" />
+<var name="loss_function" type="BCEWithLogitsLoss" qualifier="torch.nn.modules.loss" value="BCEWithLogitsLoss%28%29" isContainer="True" />
+<var name="losses" type="list" qualifier="builtins" value="%5B0.6982478505969048%2C 0.6887902120351791%2C 0.6803132127523422%2C 0.6546256139278411%2C 0.646370014846325%2C 0.6378106025457382%2C 0.629500599205494%2C 0.6310585688948631%2C 0.6219370874762535%2C 0.6213759669065475%2C 0.6085629497766495%2C 0.6097733683586121%2C 0.5990260052680969%2C 0.5996174159646034%2C 0.6060014656186103%2C 0.6207401604056358%2C 0.5940673837661743%2C 0.6063492959141731%2C 0.622618989944458%2C 0.6105497368574142%2C 0.6090377967953682%2C 0.5937544196844101%2C 0.5882238870859147%2C 0.5854093530774116%2C 0.5994642388224601%2C 0.5954220543503761%2C 0.5882585833072662%2C 0.6035495607852935%2C 0.5939019084572792%2C 0.5839720293283462%2C 0.5869262726902962%2C 0.5892071822285652%2C 0.5935140097737313%2C 0.5763756719827652%2C 0.6009614428877831%2C 0.5687113980054855%2C 0.5934694032073021%2C 0.5887894294857979%2C 0.5897268104553223%2C 0.5685136885046959%2C 0.5814743709564208%2C 0.5832818610668182%2C 0.5986498064398765%2C 0.5792898619771004%2C 0.5531527904868125%2C 0.601695644915104%2C 0.5814208207726479%2C 0.5829702944755554%2C 0.5748277083039284%2C 0.5729327010512352%2C 0.5..." isContainer="True" shape="110" />
+<var name="max_steps" type="int" qualifier="builtins" value="1000000000" />
+<var name="model" type="DocumentAttentionClassifier" qualifier="__main__" value="DocumentAttentionClassifier%28%0A  %28embeddings%29%3A Embedding%2840547%2C 50%29%0A  %28linear%29%3A Linear%28in_features=200%2C out_features=1%2C bias=True%29%0A%29" isContainer="True" />
+<var name="negative_sample" type="DataFrame" qualifier="pandas.core.frame" value="%5B%27text%27%2C %27label%27%5D %5B14251  I read about half of the book. I was looking f...      0%5D" isContainer="True" shape="(1, 2)" />
+<var name="negative_samples" type="DataFrame" qualifier="pandas.core.frame" value="%5B%27text%27%2C %27label%27%5D %5B16923  I am kicking myself for not being more careful...      0%5D %5B531    Didn%27t like this one .. too hard for me to get...      0%5D %5B6316   Great meal plans for diagnosis in the infertil...      0%5D %5B13248  Not scary enough for me. Easy reading and writ...      0%5D %5B19667  I got bogged down in the wierd and somewhat cr...      0%5D" isContainer="True" shape="(5, 2)" />
+<var name="num_heads" type="int" qualifier="builtins" value="4" />
+<var name="optimizer" type="AdamW" qualifier="torch.optim.adamw" value="AdamW %28%0AParameter Group 0%0A    amsgrad%3A False%0A    betas%3A %280.9%2C 0.999%29%0A    capturable%3A False%0A    differentiable%3A False%0A    eps%3A 1e-08%0A    foreach%3A None%0A    fused%3A None%0A    lr%3A 0.001%0A    maximize%3A False%0A    weight_decay%3A 0.01%0A%29" isContainer="True" />
+<var name="patience" type="int" qualifier="builtins" value="30000" />
+<var name="positive_samples" type="DataFrame" qualifier="pandas.core.frame" value="%5B%27text%27%2C %27label%27%5D %5B10288  Ever is a young girl with some unique problems...      1%5D %5B15548  Letty is a very believable character with real...      1%5D %5B15690  Not much I can add to all the glowing reviews ...      1%5D %5B12655  It seems odd to be evaluating such a great aut...      1%5D %5B4322   If you want to actually know about U.S. milita...      1%5D" isContainer="True" shape="(5, 2)" />
+<var name="pre_label" type="float" qualifier="builtins" value="1.0" />
+<var name="pred" type="float" qualifier="builtins" value="1.0" />
+<var name="prediction" type="float" qualifier="builtins" value="0.0" />
+<var name="predictions" type="list" qualifier="builtins" value="%5B0.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 1.0%2C 1.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C 0.0%2C 0.0%2C 0.0%2C 0.0%2C 1.0%2C..." isContainer="True" shape="20000" />
+<var name="probability" type="Tensor" qualifier="torch" value="tensor%28%5B0.2957%5D%29" isContainer="True" shape="(1,)" />
+<var name="running_loss" type="float" qualifier="builtins" value="0.0" />
+<var name="s" type="str" qualifier="builtins" value="%0AI%27m a big fan of his%2C and I have to say that this was a BIG letdown. It features%3A Stilted dialogue%2C no character development%2C no suspense%2C no description of Indian tradition and poor editing.%0A%0AAvoid at all costs.%0A" />
+<var name="selected_samples" type="DataFrame" qualifier="pandas.core.frame" value="%5B%27text%27%2C %27label%27%5D %5B14251  I read about half of the book. I was looking f...      0%5D" isContainer="True" shape="(1, 2)" />
+<var name="sent_dev_df" type="DataFrame" qualifier="pandas.core.frame" value="%5B%27text%27%2C %27label%27%5D %5B0      Picturing Perfect is a sappy love story with l...      0%5D %5B1      Seems like the same story as any other series ...      0%5D %5B2      I was very pleased with this book. I will be t...      1%5D %5B3      It is a very light and rather silly novel. The...      0%5D %5B4      I did not like this book. It was not to my tas...      0%5D %5B...                                                  ...    ...%5D %5B19995  Great content%2C the story is fantastic%2C but sho...      1%5D %5B19996  Typical book club book... Incest%2C child abuse%2C...      0%5D %5B19997  Fascinating book. Shorter than most Russell Ba...      1%5D %5B19998  This book is not well-organized%2C which is impo...      0%5D %5B19999  CAN WE CALL THIS A CLASSIC OF THE GENRE%3F I THI...      1%5D %5B%5D" isContainer="True" shape="(20000, 2)" />
+<var name="sent_test_df" type="DataFrame" qualifier="pandas.core.frame" value="%5B%27inst_id%27%2C %27text%27%2C %27predicted_label%27%5D %5B0            0  Really sad review as I absolutely loved the fi...   %5D %5B1            1  Excellent content%2C perfect for Christians who ...   %5D %5B2            2  This is an okay book if you need advice on bud...   %5D %5B3            3  This is one book you can%27t put down%21 This book...   %5D %5B4            4  There were to many names that I had no idenity...   %5D %5B...        ...                                                ...   %5D %5B19995    19995  I found this book to be a very entertaining an...   %5D %5B19996    19996  Wow%2C what a Middle School%21 Read this book your...   %5D %5B19997    19997  Not what I expected. Not enough about circular...   %5D %5B19998    19998  I like Joanne Fluke%27s mystery series starring ...   %5D %5B19999    19999  Grow some chickens%2C improve your land%2C make al...   %5D %5B%5D %5B0                  0.0  %5D %5B1                  1.0  %5D %5B2                  0.0  %5D %5B3                  1.0  %5D %5B4                  0.0  %5D %5B...                ...  %5D %5B19995         ..." isContainer="True" shape="(20000, 3)" />
+<var name="sent_train_df" type="DataFrame" qualifier="pandas.core.frame" value="%5B%27text%27%2C %27label%27%5D %5B0       It was what I needed. There was no markings or...      1%5D %5B1       A cute little book. My wife gets the family wa...      1%5D %5B2       I bought these for 40.00 and for the price I j...      0%5D %5B3       It was interesting and enjoyable reading. Shor...      1%5D %5B4       A perfect ending to an amazing story. This was...      1%5D %5B...                                                   ...    ...%5D %5B159995  After reading every book Stephen King has to o...      1%5D %5B159996  Baby boomers who are experiencing %22aging eyeba...      0%5D %5B159997  Must read%2C must have%2C must read again. This bo...      1%5D %5B159998  Dr. Chopra%27s books are always enlightening and...      1%5D %5B159999  Boooring%21%21 Just enough to keep you intrigued f...      0%5D %5B%5D" isContainer="True" shape="(160000, 2)" />
+<var name="step" type="int" qualifier="builtins" value="54999" />
+<var name="steps_since_improvement" type="int" qualifier="builtins" value="30000" />
+<var name="test_data" type="list" qualifier="builtins" value="%5Btensor%28%5B   96%2C   885%2C   626%2C     3%2C    96%2C  1132%2C    12%2C     7%2C   285%2C    21%2C%0A           96%2C    21%2C     1%2C  4050%2C     4%2C  6499...8504%2C  7595%2C     7%2C%0A         2087%2C   762%2C     7%2C   727%2C    42%2C   335%2C   385%2C   514%2C    98%2C   629%2C%0A          102%2C    13%2C   450%5D%29%2C tensor%28%5B  96%2C 1669%2C 1427%2C   98%2C   96%2C    9%2C   77%2C  207%2C 2651%2C  314%2C  804%2C   24%2C%0A           7%2C   96%2C   13%2C   86%2C 1887%2C   61%2C    7%2C  693%5D%29%2C tensor%28%5B   96%2C   193%2C   314%2C  4921%2C    21%2C   335%2C    59%2C   661%2C   633%2C    22%2C%0A         8229%2C    13%2C  3966%2C    96%2C   360%2C   345...  719%2C    96%2C   309%2C   497%2C    94%2C   719%2C  1105%2C%0A           59%2C    80%2C    32%2C     7%2C   269%2C   154%2C 20119%2C    64%2C     7%2C  2881%5D%29%2C tensor%28%5B  96%2C  193%2C   42%2C   21%2C   59%2C   92%2C  200%2C  506%2C  108%2C   96%2C   21%2C   15%2C%0A          80%2C   59%2C  218%2C   13%2C 8965%2C   59%2C   ...7%2C    4%2C  768%2C   13%2C%0A        3576%2C  677%2C   86%2C  678%2C   64%2C  287%2C  193%2C  537%2C  265%2C   96%2C  151%2C  329%2C%0A           0%2C  679%2C   21%5D%29%2C tensor%28%5B  96%2C  336%2C   64%2C  141%2C  352%2C   47%2C   96%2C  104%2C  204%2C   96%2C   27%2C   61%2C%0A       ..." isContainer="True" shape="20000" />
+<var name="test_data_path" type="str" qualifier="builtins" value="sentiment.test.csv" />
+<var name="test_list" type="list" qualifier="builtins" value="%5Btensor%28%5B   96%2C   885%2C   626%2C     3%2C    96%2C  1132%2C    12%2C     7%2C   285%2C    21%2C%0A           96%2C    21%2C     1%2C  4050%2C     4%2C  6499...8504%2C  7595%2C     7%2C%0A         2087%2C   762%2C     7%2C   727%2C    42%2C   335%2C   385%2C   514%2C    98%2C   629%2C%0A          102%2C    13%2C   450%5D%29%2C tensor%28%5B  96%2C 1669%2C 1427%2C   98%2C   96%2C    9%2C   77%2C  207%2C 2651%2C  314%2C  804%2C   24%2C%0A           7%2C   96%2C   13%2C   86%2C 1887%2C   61%2C    7%2C  693%5D%29%2C tensor%28%5B   96%2C   193%2C   314%2C  4921%2C    21%2C   335%2C    59%2C   661%2C   633%2C    22%2C%0A         8229%2C    13%2C  3966%2C    96%2C   360%2C   345...  719%2C    96%2C   309%2C   497%2C    94%2C   719%2C  1105%2C%0A           59%2C    80%2C    32%2C     7%2C   269%2C   154%2C 20119%2C    64%2C     7%2C  2881%5D%29%2C tensor%28%5B  96%2C  193%2C   42%2C   21%2C   59%2C   92%2C  200%2C  506%2C  108%2C   96%2C   21%2C   15%2C%0A          80%2C   59%2C  218%2C   13%2C 8965%2C   59%2C   ...7%2C    4%2C  768%2C   13%2C%0A        3576%2C  677%2C   86%2C  678%2C   64%2C  287%2C  193%2C  537%2C  265%2C   96%2C  151%2C  329%2C%0A           0%2C  679%2C   21%5D%29%2C tensor%28%5B  96%2C  336%2C   64%2C  141%2C  352%2C   47%2C   96%2C  104%2C  204%2C   96%2C   27%2C   61%2C%0A       ..." isContainer="True" shape="20000" />
+<var name="test_output" type="DataFrame" qualifier="pandas.core.frame" value="%5B%27inst_id%27%2C %27predicted_label%27%5D %5B0            0              0.0%5D %5B1            1              1.0%5D %5B2            2              0.0%5D %5B3            3              1.0%5D %5B4            4              0.0%5D %5B...        ...              ...%5D %5B19995    19995              1.0%5D %5B19996    19996              1.0%5D %5B19997    19997              0.0%5D %5B19998    19998              1.0%5D %5B19999    19999              0.0%5D %5B%5D" isContainer="True" shape="(20000, 2)" />
+<var name="texts" type="list" qualifier="builtins" value="%5B%22I read about half of the book. I was looking for something inspirational or funny and it just wasn%27t there.%22%5D" isContainer="True" shape="1" />
+<var name="tokenizer" type="RegexpTokenizer" qualifier="nltk.tokenize.regexp" value="RegexpTokenizer%28pattern=%27%5C%5Cw%2B%27%2C gaps=False%2C discard_empty=True%2C flags=re.UNICODE%7Cre.MULTILINE%7Cre.DOTALL%29" isContainer="True" />
+<var name="tokens" type="list" qualifier="builtins" value="%5B%27%3CUNK&gt;%27%2C %27read%27%2C %27about%27%2C %27half%27%2C %27of%27%2C %27the%27%2C %27book%27%2C %27%3CUNK&gt;%27%2C %27was%27%2C %27looking%27%2C %27for%27%2C %27something%27%2C %27inspirational%27%2C %27or%27%2C %27funny%27%2C %27and%27%2C %27it%27%2C %27just%27%2C %27wasn%27%2C %27t%27%2C %27there%27%5D" isContainer="True" shape="21" />
+<var name="train_data_path" type="str" qualifier="builtins" value="sentiment.train.csv" />
+<var name="train_dataset" type="TextDataset" qualifier="__main__" value="%3C__main__.TextDataset object at 0x000001E74CD89970&gt;" isContainer="True" shape="160000" />
+<var name="train_list" type="list" qualifier="builtins" value="%5B%28%5B   96     1   287    96   248    96     1   204 16850   291   110    24%2C    47    96   193   306    64    50    13    93%5D%2C array%281%29%29%2C %28%5B  96  884  234   21   96 1191 2472    7  693 1931 1926  268   96   96%2C   85 1688   96   21   67    7 1160  884 1578%5D%2C array%281%29%29%2C %28%5B  96    2  320   98 3569 7030   13   98    7  366   96  128 5745   14%2C  151   88  105 9655   96   88   96  123   59 1956  320   59  175   11%2C   15  128   88   96  140  105 9655 5834%5D%2C array%280%29%29%2C %28%5B  96    1  358   13  333  341   96   76 1775   83   96  241 1635 3070%2C   24   96   13 1196  729   61  305   95   96   76 1426   48    4  699%2C  117   96  115    4  486   24   96   96  356   76   96   62%5D%2C array%281%29%29%2C %28%5B  96 1427 1233   64  314  679   71   96    1  314 1131 1554 1555   98%2C  265 1905   96    1 7419   98 3204   87  310 1588  335   14  151  539%2C  232  287   14 1905  249    0    1    4  615  710   96   12   11%5D%2C array%281%29%29%2C %28%5B   96    64    88   314  1774  3195    24   345    24    96    26    96%2C    13  1178   341    ..." isContainer="True" shape="160000" />
+<var name="train_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x000001E74C854620&gt;" isContainer="True" shape="160000" />
+<var name="vocab_size" type="int" qualifier="builtins" value="40547" />
+<var name="word_ids" type="Tensor" qualifier="torch" value="tensor%28%5B  96%2C  345%2C 8879%2C 1977%2C  385%2C 1364%2C   80%2C 4134%2C   24%2C 1105%2C  680%2C   19%2C%0A          13%2C   96%2C   96%2C   96%2C   94%2C   61%2C    0%2C   21%2C   13%2C   61%2C   96%2C   24%2C%0A          96%2C   96%2C  180%5D%29" isContainer="True" shape="(27,)" />
+<var name="word_to_index" type="dict" qualifier="builtins" value="%7B%270%27%3A 6860%2C %2700%27%3A 7030%2C %27000%27%3A 7717%2C %27001%27%3A 38825%2C %27007%27%3A 28099%2C %2700am%27%3A 25993%2C %2701%27%3A 24762%2C %2702%27%3A 29846%2C %2703%27%3A 11089%2C %27039%27%3A 38140%2C %2704%27%3A 8057%2C %2705%27%3A 32280%2C %2706%27%3A 30353%2C %2707%27%3A 7063%2C %2708%27%3A 24586%2C %2709%27%3A 22275%2C %270f%27%3A 37971%2C %271%27%3A 793%2C %2710%27%3A 1684%2C %27100%27%3A 870%2C %271000%27%3A 10968%2C %2710000%27%3A 31123%2C %271000s%27%3A 20833%2C %271000x%27%3A 33996%2C %271001%27%3A 7910%2C %27100k%27%3A 39109%2C %27100s%27%3A 25367%2C %27100th%27%3A 879%2C %27101%27%3A 7005%2C %27101st%27%3A 26963%2C %27102%27%3A 29336%2C %27103%27%3A 31073%2C %27104%27%3A 31072%2C %27105%27%3A 27289%2C %27106%27%3A 11911%2C %271066%27%3A 34895%2C %27107%27%3A 733%2C %27108%27%3A 15245%2C %27109%27%3A 34772%2C %2710k%27%3A 16506%2C %2710th%27%3A 24530%2C %2710x%27%3A 22765%2C %2710yr%27%3A 28921%2C %2711%27%3A 3831%2C %27110%27%3A 18961%2C %271100%27%3A 36651%2C %27111%27%3A 18962%2C %27112%27%3A 11145%2C %27113%27%3A 32771%2C %27114%27%3A 24557%2C %27115%27%3A 15244%2C %27116%27%3A 19634%2C %27117%27%3A 39597%2C %27118%27%3A 21937%2C %27119%27%3A 38487%2C %2711pm%27%3A 25792%2C %2711th%27%3A 10687%2C %2712%27%3A 1681%2C %27120%27%3A 14299%2C %271200%27%3A 13958%2C %27121%27%3A 33184%2C %27122%27%3A 38431%2C %27123%27%3A 18402%2C %27124%27%3A 39041%2C %27125%27%3A 25024%2C %27126%27%3A 39242%2C %27127%27%3A 35211%2C %27128%27%3A 37280%2C %27129%27%3A 39683%2C %2712th%27%3A 10890%2C %2712yr%27%3A 17641%2C %2713%27%3A 3671%2C %27130%27..." isContainer="True" shape="40547" />
+<var name="word_to_index_file" type="str" qualifier="builtins" value="./models/1st_model_word_to_index.pkl" />

@@ -1,0 +1,52 @@
+{
+    "os": "Windows-11-10.0.22631-SP0",
+    "python": "3.12.2",
+    "heartbeatAt": "2024-03-06T19:26:06.112383",
+    "startedAt": "2024-03-06T19:26:04.719485",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Part4-1.ipynb",
+    "codePathLocal": "Part4-1.ipynb",
+    "root": "G:/My Drive/SI_630/Homeworks",
+    "git": {
+        "remote": "https://github.com/yanzhuo2001/SI630-CourseFiles.git",
+        "commit": "2928eaa006976025bd337fb09f0faeb673e63074"
+    },
+    "email": null,
+    "host": "Yanzhuo_Gaming",
+    "username": "16979",
+    "executable": "C:\\Users\\16979\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "cpu_count": 10,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2400.0,
+        "min": 0.0,
+        "max": 2400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400.0,
+            "min": 0.0,
+            "max": 2400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 952.5908164978027,
+            "used": 230.09370803833008
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+            "memory_total": 6439305216
+        }
+    ],
+    "memory": {
+        "total": 31.71080780029297
+    }
+}
